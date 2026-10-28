@@ -62,6 +62,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",A
 <style>#ecm-auto-panel{min-width:0}#ecm-auto-panel .ecm-auto-selection-tools{align-items:center;gap:8px 12px}#ecm-auto-panel .ecm-auto-selection-tools>strong{font-size:12px;margin-right:auto}#ecm-auto-panel .ecm-auto-selection-tools>button{padding:6px 11px;font-size:11px}#ecm-auto-panel .ecm-auto-models{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px 18px;margin:12px 0}#ecm-auto-panel .ecm-auto-models label{display:flex;align-items:flex-start;gap:8px;font-size:12px;line-height:1.5;min-width:0;overflow-wrap:anywhere}#ecm-auto-panel .ecm-auto-models input{flex:0 0 auto;margin-top:3px;accent-color:var(--teal)}#ecm-auto-panel .ecm-auto-status{padding:11px 12px;font-size:12px;line-height:1.6;background:var(--accent-subtle);border-left:3px solid var(--teal);overflow-wrap:anywhere}#ecm-auto-panel .ecm-auto-status[data-concern=true]{border-color:#d5a44c;background:#fff7eb;color:#916323}#ecm-auto-panel #ecm-auto-progress{width:100%;accent-color:var(--teal)}#ecm-auto-panel .ecm-auto-table{width:100%;border-collapse:collapse;font-size:12px}#ecm-auto-panel .ecm-auto-table th,#ecm-auto-panel .ecm-auto-table td{padding:9px 7px;border-bottom:1px solid var(--line);vertical-align:top;font-variant-numeric:tabular-nums;text-align:right}#ecm-auto-panel .ecm-auto-table th{font-weight:500;color:var(--muted);white-space:nowrap}#ecm-auto-panel .ecm-auto-table td:nth-child(2),#ecm-auto-panel .ecm-auto-table td:nth-child(8),#ecm-auto-panel .ecm-auto-table td:nth-child(9),#ecm-auto-panel .ecm-auto-table td:nth-child(10){text-align:left}#ecm-auto-panel .ecm-auto-table td:nth-child(2){min-width:165px;max-width:250px;overflow-wrap:anywhere}#ecm-auto-panel .ecm-auto-table td:nth-child(8){min-width:85px}#ecm-auto-panel .ecm-auto-table td:nth-child(9){min-width:190px;max-width:380px;overflow-wrap:anywhere}#ecm-auto-panel .ecm-auto-table td:nth-child(10){min-width:105px}#ecm-auto-panel .ecm-auto-circuit{display:block;color:var(--muted);font:11px Consolas,monospace;margin-top:4px;overflow-wrap:anywhere}#ecm-auto-panel .ecm-auto-table tr[data-limited=true] td:nth-child(8),#ecm-auto-panel .ecm-auto-table tr[data-limited=true] td:nth-child(9){color:#916323}#ecm-auto-panel .ecm-auto-row-warning{margin:6px 0 0;font-size:11px;line-height:1.6}#ecm-auto-panel .ecm-auto-row-details{font-size:11px;margin-top:6px}#ecm-auto-panel .ecm-auto-row-details summary{cursor:pointer}#ecm-auto-panel .ecm-auto-table button{white-space:normal;padding:6px 9px;font-size:11px}#ecm-auto-panel #ecm-auto-history{max-height:360px;overflow:auto;white-space:pre-wrap;word-break:break-word}#ecm-auto-panel .tools-row>.secondary{white-space:normal}#ecm-auto-panel #ecm-auto-recommendation{overflow-wrap:anywhere;font-size:12px}@media(max-width:600px){#ecm-auto-panel .ecm-auto-models{grid-template-columns:minmax(0,1fr)}#ecm-auto-panel .tools-row>.secondary{flex:1 1 125px}#ecm-auto-panel .ecm-auto-selection-tools>.secondary{flex:0 1 auto}#ecm-auto-panel .ecm-auto-table th,#ecm-auto-panel .ecm-auto-table td{font-size:11px;padding:8px 6px}}
 </style>
 <style>.custom-ecm-panel{color:#334155}.custom-ecm-comparison-current{background:#eff6ff}
+.custom-ecm-distributed-details{border:1px solid #dbe4ef;border-radius:6px;padding:10px 12px;margin:12px 0;background:#f8fafc}.custom-ecm-distributed-details>summary{cursor:pointer;font-size:12px;font-weight:600;color:#334155}.custom-ecm-distributed-details>p{font-size:12px;line-height:1.75;color:#64748b;margin:9px 0 0}.custom-ecm-table .custom-ecm-parameter-key{font-family:Consolas,monospace;overflow-wrap:anywhere}
 .custom-ecm-panel>summary{color:#1e293b}.custom-ecm-panel h3{font-size:14px;line-height:1.5;margin:0}.custom-ecm-panel h4{font-size:12px;line-height:1.5;margin:0 0 8px;font-weight:600}.custom-ecm-panel label{display:flex;flex-direction:column;gap:6px;font-size:12px;color:#475569;min-width:0}.custom-ecm-panel select,.custom-ecm-panel input,.custom-ecm-panel textarea{width:100%;min-width:0;border:1px solid #cbd5e1;border-radius:5px;padding:8px 9px;background:white;color:#1e293b;font:12px/1.4 inherit;box-sizing:border-box}.custom-ecm-panel input[type=checkbox]{width:16px;height:16px;accent-color:#2563eb}.custom-ecm-panel button{border-radius:5px;font-size:12px!important;padding:8px 11px;min-height:32px}.custom-ecm-panel button.secondary{background:#fff;border:1px solid #cbd5e1;color:#334155}.custom-ecm-panel button.primary{background:#2563eb;border:1px solid #2563eb;color:white}.custom-ecm-panel button:disabled{opacity:.48;cursor:not-allowed}.custom-ecm-panel :focus-visible{outline:2px solid #2563eb;outline-offset:2px}.custom-ecm-muted{color:#64748b;font-size:12px;line-height:1.7;margin:8px 0}.custom-ecm-template-row{display:flex;gap:12px;align-items:end;margin:16px 0}.custom-ecm-template-row>label{flex:1}.custom-ecm-editor-grid{display:grid;grid-template-columns:minmax(220px,.65fr) minmax(0,1.65fr);border:1px solid #e2e8f0;border-radius:7px;overflow:hidden;margin-bottom:12px}.custom-ecm-builder{padding:16px;background:#f8fafc;border-right:1px solid #e2e8f0;display:flex;flex-direction:column;gap:12px;min-width:0}.custom-ecm-edit-actions{display:grid;grid-template-columns:1fr 1fr;gap:7px}.custom-ecm-diagram-section{padding:16px;min-width:0}.custom-ecm-section-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:16px 0 9px;flex-wrap:wrap}.custom-ecm-section-heading>div{display:flex;gap:7px;flex-wrap:wrap}.custom-ecm-diagram-section>.custom-ecm-section-heading{margin-top:0}.custom-ecm-schematic{min-height:210px;max-height:480px;overflow:auto;display:flex;align-items:center;background:#fff;border:1px solid #eef2f7;border-radius:5px}.custom-ecm-schematic>svg{width:100%;min-width:360px;height:auto;display:block;max-height:none}.custom-ecm-schematic [data-custom-path]{cursor:pointer}.custom-ecm-schematic [data-custom-path]:hover>.custom-ecm-hit{fill:#eff6ff}.custom-ecm-schematic [data-custom-selected=true]>.custom-ecm-hit{fill:#eff6ff;stroke:#93c5fd}.custom-ecm-canonical{font:12px/1.6 Consolas,monospace;color:#475569;margin:9px 0 0;overflow-wrap:anywhere}.custom-ecm-expression-details{border:1px solid #e2e8f0;border-radius:6px;padding:9px 12px;margin:12px 0}.custom-ecm-expression-details>summary,.custom-ecm-diagnostics>summary{cursor:pointer;font-size:12px;color:#475569}.custom-ecm-expression-details>label{margin-top:12px}.custom-ecm-expression-details textarea{resize:vertical;min-height:62px;font-family:Consolas,monospace;line-height:1.6;margin-top:6px}.custom-ecm-status{font-size:12px;line-height:1.7;margin:8px 0;overflow-wrap:anywhere;color:#475569}.custom-ecm-status[data-state=error]{color:#b42318;background:#fff5f4;padding:8px 10px;border:1px solid #fecaca;border-radius:5px}.custom-ecm-status[data-state=running]{color:#1d4ed8;background:#eff6ff;padding:8px 10px;border-radius:5px}.custom-ecm-table-wrap{max-width:100%;overflow:auto;border:1px solid #e2e8f0;border-radius:5px}.custom-ecm-table{border-collapse:collapse;width:100%;font-size:12px;line-height:1.55;min-width:560px}.custom-ecm-table th,.custom-ecm-table td{padding:8px 10px;text-align:left;border-bottom:1px solid #edf2f7;vertical-align:middle}.custom-ecm-table th{background:#f8fafc;color:#64748b;font-weight:500}.custom-ecm-table tr:last-child td{border-bottom:0}.custom-ecm-table th:first-child{width:23%}.custom-ecm-table th:last-child{width:8%}.custom-ecm-table td>small{display:block;font-size:10px;color:#64748b}.custom-ecm-table input{max-width:180px;min-width:80px;padding:6px 7px}.custom-ecm-table input[type=checkbox]{min-width:0}.custom-ecm-fit-settings{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:12px;margin:15px 0}.custom-ecm-run-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:14px 0}.custom-ecm-budget{margin-left:auto}.custom-ecm-results{border-top:1px solid #e2e8f0;margin-top:18px;padding-top:2px}.custom-ecm-record-label{margin:12px 0}.custom-ecm-record-label>select{max-width:100%}.custom-ecm-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:12px 0}.custom-ecm-metrics>div{padding:11px 13px;border:1px solid #e2e8f0;border-radius:6px;background:#f8fafc}.custom-ecm-metrics span{display:block;font-size:11px;color:#64748b}.custom-ecm-metrics strong{display:block;font-size:21px;line-height:1.6;font-weight:600;color:#1e293b;overflow-wrap:anywhere}.custom-ecm-warning{font-size:12px;line-height:1.75;color:#92400e;overflow-wrap:anywhere;margin:12px 0}.custom-ecm-warning:not(:empty){padding:9px 12px;background:#fffbeb;border:1px solid #fde68a;border-radius:5px}.custom-ecm-result-table{min-width:420px}.custom-ecm-result-table th:last-child{width:30%}.custom-ecm-bound{color:#9a6700}.custom-ecm-plots{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:12px 0}.custom-ecm-plots>section{min-width:0;border:1px solid #e2e8f0;padding:13px;border-radius:6px}.custom-ecm-plots svg{height:240px;width:100%;display:block;overflow:visible}.custom-ecm-legend{font-size:12px;color:#64748b;margin:15px 0 6px}.custom-ecm-dot{color:#94a3b8;margin-right:5px}.custom-ecm-line{color:#3569a8;margin-left:16px;margin-right:5px}.custom-ecm-diagnostics{margin-top:14px;border:1px solid #e2e8f0;padding:10px 12px;border-radius:5px}.custom-ecm-diagnostics pre{font:11px/1.6 Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere;max-height:300px;overflow:auto;background:#f8fafc;padding:10px;margin:9px 0 0}.custom-ecm-panel [hidden]{display:none!important}
 @media(max-width:1000px){.custom-ecm-editor-grid{grid-template-columns:1fr}.custom-ecm-builder{border-right:0;border-bottom:1px solid #e2e8f0;display:grid;grid-template-columns:1fr 1fr}.custom-ecm-builder>h3,.custom-ecm-builder>.custom-ecm-edit-actions,.custom-ecm-builder>p{grid-column:1/-1}.custom-ecm-schematic{min-height:180px}.custom-ecm-schematic>svg{min-width:400px}}
 @media(max-width:600px){.custom-ecm-template-row{flex-wrap:wrap}.custom-ecm-template-row>label{flex-basis:100%}.custom-ecm-fit-settings{grid-template-columns:1fr 1fr}.custom-ecm-fit-settings>label:first-child{grid-column:1/-1}.custom-ecm-plots{grid-template-columns:1fr}.custom-ecm-metrics{grid-template-columns:1fr}.custom-ecm-metrics>div{display:flex;align-items:center;justify-content:space-between;gap:8px}.custom-ecm-metrics strong{font-size:19px}.custom-ecm-section-heading{align-items:flex-start}.custom-ecm-builder{padding:12px}.custom-ecm-diagram-section{padding:12px}.custom-ecm-run-row>button{flex:1}.custom-ecm-panel button{white-space:normal}}
@@ -790,7 +791,7 @@ body.studio-enabled{background:#f6f7f9}
     <section class="custom-ecm-builder" aria-labelledby="custom-ecm-builder-title">
       <h3 id="custom-ecm-builder-title">编辑连接</h3>
       <label><span id="custom-ecm-node-label">选择元件或连接组</span><select id="custom-ecm-node"></select></label>
-      <label><span id="custom-ecm-element-label">要添加的元件</span><select id="custom-ecm-element"><option value="R">R · 电阻</option><option value="C">C · 电容</option><option value="L">L · 电感</option><option value="CPE">CPE · 常相位元件</option><option value="W">W · 半无限扩散</option><option value="Ws">Ws · 有限扩散短路端</option><option value="Wo">Wo · 有限扩散开路端</option></select></label>
+      <label><span id="custom-ecm-element-label">要添加的元件</span><select id="custom-ecm-element"><option value="R">R · 电阻</option><option value="C">C · 电容</option><option value="L">L · 电感</option><option value="CPE">CPE · 常相位元件</option><option value="W">W · 半无限扩散</option><option value="Ws">Ws · 有限扩散短路端</option><option value="Wo">Wo · 有限扩散开路端</option><option value="DX12">DX12 · Bisquert #3 传输线</option><option value="DX28">DX28 · Barsoukov 传输线</option></select></label>
       <div class="custom-ecm-edit-actions"><button id="custom-ecm-add-series" type="button" class="secondary">添加串联元件</button><button id="custom-ecm-add-parallel" type="button" class="secondary">添加并联支路</button><button id="custom-ecm-replace" type="button" class="secondary">替换所选项</button><button id="custom-ecm-remove" type="button" class="secondary">移除所选项</button></div>
       <p id="custom-ecm-builder-note" class="custom-ecm-muted">可以选择整个连接组继续串联或并联。点击图中的元件，也可选中它。</p>
     </section>
@@ -800,6 +801,21 @@ body.studio-enabled{background:#f6f7f9}
       <p id="custom-ecm-canonical" class="custom-ecm-canonical"></p>
     </section>
   </div>
+  <details id="custom-ecm-distributed-details" class="custom-ecm-distributed-details" hidden>
+    <summary id="custom-ecm-distributed-title">DX28 · 传输线模型说明</summary>
+    <p id="custom-ecm-distributed-summary">沿电极深度分布的传输电阻 Rm，与局部双电层 Cdl 及 Rct + Zd 反应支路耦合；末端由 Qb 与 Rb 并联描述。</p>
+    <p id="custom-ecm-distributed-convention">归一化长度 L = 1，末端 Rb 固定为 10²⁰ Ω。图中的重复支路用于说明分布结构，响应按连续传输线模型计算。</p>
+    <p id="custom-ecm-distributed-boundary">TB = 0 时关闭末端 CPE，并保持 TB、PB 固定。启用 CPE 拟合时，先将 TB 初值与下限设为正数，再取消固定；PB 的范围为 0–1。</p>
+    <p id="custom-ecm-distributed-capacitance">Cd、Cp 是该模型的储能参数，不能直接解释为 LSCF 电极的总化学电容。</p>
+    <p id="custom-ecm-distributed-scope">该模型需按电极结构与边界条件选用，可按实测响应另加串联 Rs 或 L，不加入首页的 20 种自动候选。较低拟合误差不能单独确认反应机理，也不表示参数已被数据独立确定。</p>
+  </details>
+  <details id="custom-ecm-dx12-details" class="custom-ecm-distributed-details" hidden>
+    <summary id="custom-ecm-dx12-title">DX12 · Bisquert #3 传输线</summary>
+    <p id="custom-ecm-dx12-summary">X1 = R ∥ CPE(T, P) 是沿长度分布的传输阻抗；X3 = C ∥ CPE(D, E) 是分布横向支路；X2 = U ∥ CPE(A, B) 是末端边界。这里的 C 是电阻参数，单位为 Ω。</p>
+    <p id="custom-ecm-dx12-zero">按此模型约定，R、U、C 或 CPE 系数设为 0 表示不使用该支路，并非零欧短路。默认保留 X1 电阻与 X3 的 CPE，末端开路；关闭的支路保持固定。要启用拟合，请先设置正初值、正下限，再取消固定。</p>
+    <p id="custom-ecm-dx12-length">F 是长度，必须固定且大于 0；默认 F = 1。分布参数的单位与长度归一化有关。P、B、E 范围为 0–1；D 是 CPE 系数，不能直接当成扩散系数。</p>
+    <p id="custom-ecm-dx12-scope">可在外部串联电阻、电感或并联电容、CPE。DX12 不进入首页自动候选；请按电极结构选择边界条件，并结合残差及参数辨识判断结果。</p>
+  </details>
   <details class="custom-ecm-expression-details"><summary id="custom-ecm-expression-title">电路表达式</summary><label for="custom-ecm-expression" id="custom-ecm-expression-label">编辑表达式</label><textarea id="custom-ecm-expression" rows="2" spellcheck="false" maxlength="2000" aria-describedby="custom-ecm-syntax"></textarea><p id="custom-ecm-syntax" class="custom-ecm-muted">+ 为串联，|| 为并联，例如 Rs + (R1 || Q1)。Q 是 CPE，参数为 Q 和 α。元件编号不可重复。</p></details>
   <p id="custom-ecm-validation" class="custom-ecm-status" role="status" aria-live="polite"></p>
   <div class="custom-ecm-section-heading"><h3 id="custom-ecm-parameters-title">参数与约束</h3><button id="custom-ecm-estimate" type="button" class="secondary">按当前数据重估初值</button></div>
@@ -921,13 +937,27 @@ body.studio-enabled{background:#f6f7f9}
       <p data-help-zh="自动阶数可能早停。遇到较大残差时，先检查数据单位、符号、测量稳定性及频窗，再在详情中比较合理的固定 M 或其他模式。大残差本身不能区分数据问题和模型阶数不足。" data-help-en="Automatic order selection can stop early. With large residuals, check units, sign, measurement stability and frequency coverage, then compare suitable fixed M values or modes in the detail view. A large residual alone cannot distinguish a data problem from insufficient model order.">自动阶数可能早停。遇到较大残差时，先检查数据单位、符号、测量稳定性及频窗，再在详情中比较合理的固定 M 或其他模式。大残差本身不能区分数据问题和模型阶数不足。</p>
     </div></details>
     <details id="studio-help-method-ecm" class="studio-help-details" tabindex="-1"><summary data-help-zh="ECM · 模板候选、自定义与局部寻优" data-help-en="ECM · templates, custom circuits and local optimization">ECM · 模板候选、自定义与局部寻优</summary><div class="studio-help-details-body">
-      <p data-help-zh="首页默认比较 16 种常见模板：R、串联 RC、单／双 RC、单／双 ZARC、Randles 半无限及有限扩散，以及含串联电感的组合。相同频点、模值权重、6 个起点与每起点 250 步构成本轮比较的共同设置。" data-help-en="The overview compares 16 common templates: R, series RC, one/two RCs, one/two ZARCs, Randles with semi-infinite or finite diffusion, and combinations with series inductance. They share the same points, modulus weighting, six starts and 250 iterations per start.">首页默认比较 16 种常见模板：R、串联 RC、单／双 RC、单／双 ZARC、Randles 半无限及有限扩散，以及含串联电感的组合。相同频点、模值权重、6 个起点与每起点 250 步构成本轮比较的共同设置。</p>
+      <p data-help-zh="首页默认比较 20 种常见模板：R、串联 RC/CPE、单／双 RC、单／双 ZARC、混合 RC/ZARC、Randles 半无限及有限扩散、含串联电感及外部并联电容/CPE 的组合。相同频点、模值权重、6 个起点与每起点 250 步构成本轮比较的共同设置。" data-help-en="The overview compares 20 common templates: R, series RC/CPE, one/two RCs, one/two ZARCs, mixed RC/ZARC, Randles with semi-infinite or finite diffusion, series-inductive and external parallel capacitor/CPE combinations. They share the same points, modulus weighting, six starts and 250 iterations per start.">首页默认比较 20 种常见模板：R、串联 RC/CPE、单／双 RC、单／双 ZARC、混合 RC/ZARC、Randles 半无限及有限扩散、含串联电感及外部并联电容/CPE 的组合。相同频点、模值权重、6 个起点与每起点 250 步构成本轮比较的共同设置。</p>
       <p data-help-zh="模板求解器使用解析灵敏度、正参数的对数坐标和有界多初值 LM；必要时回退到有限差分。版本 analytic-bounded-lm-v2 的步长控制按坐标处理。它仍是局部优化，增加预算也不能保证全局最优。" data-help-en="The template solver uses analytic sensitivities, logarithmic coordinates for positive parameters and bounded multistart LM, with finite differences as a fallback when needed. Version analytic-bounded-lm-v2 controls steps per coordinate. Optimization remains local; a larger budget cannot guarantee a global optimum.">模板求解器使用解析灵敏度、正参数的对数坐标和有界多初值 LM；必要时回退到有限差分。版本 analytic-bounded-lm-v2 的步长控制按坐标处理。它仍是局部优化，增加预算也不能保证全局最优。</p>
       <p data-help-zh="自定义电路使用独立的通用串并联求解器。可从模板修改 R、C、L、CPE、W、Ws、Wo 的连接，并编辑初值、上下界和固定状态；实时图对应实际计算的拓扑。初值模拟、拟合结果及历史输入分别保留。" data-help-en="Custom circuits use a separate general series/parallel solver. Start from a template, edit connections of R, C, L, CPE, W, Ws and Wo, and adjust initials, bounds and fixed parameters. The live diagram represents the topology actually evaluated. Initial simulations, fitted results and historical inputs are retained separately.">自定义电路使用独立的通用串并联求解器。可从模板修改 R、C、L、CPE、W、Ws、Wo 的连接，并编辑初值、上下界和固定状态；实时图对应实际计算的拓扑。初值模拟、拟合结果及历史输入分别保留。</p>
       <p class="studio-help-equation">CPE: Y = Q(jω)<sup>α</sup> · W: Z = Aw(1 − j)/√ω<br>Ws: Z = Rw · tanh(√(jωτD))/√(jωτD)<br>Wo: Z = Rw / [√(jωτD) · tanh(√(jωτD))]</p>
       <p data-help-zh="CPE 的 Q 通常不等于电容；α 为无量纲指数。扩散参数和耦合 Randles 的时间尺度，也不能自动当成独立 DRT 峰。自定义目前支持嵌套串并联，最多 24 元件、32 参数；项目最多保留 32 条自定义拟合历史，达到上限会提示而不会静默删除。" data-help-en="CPE Q is generally not a capacitance; α is dimensionless. Diffusion parameters and coupled Randles time scales are not automatically independent DRT peaks. Custom circuits support nested series/parallel connections, up to 24 elements and 32 parameters, with 32 fitted history records per project. Reaching the limit is reported without silent deletion.">CPE 的 Q 通常不等于电容；α 为无量纲指数。扩散参数和耦合 Randles 的时间尺度，也不能自动当成独立 DRT 峰。自定义目前支持嵌套串并联，最多 24 元件、32 参数；项目最多保留 32 条自定义拟合历史，达到上限会提示而不会静默删除。</p>
       <p data-help-zh="AICc/BIC 是带假设的候选比较指标：对所用权重下的实／虚残差采用共同未知方差，k 计入自由参数与一个方差参数。评分接近、候选未可靠求解或有辨识／适用性风险时保留判断。模值权重不是实测噪声，分数也不是模型正确概率。" data-help-en="AICc/BIC are conditional comparison criteria: weighted real/imaginary residuals share an unknown variance, with k counting free parameters plus one variance parameter. Close scores, unresolved candidates or identification/suitability risks lead to a cautious assessment. Modulus weights are not measured noise, and scores are not model probabilities.">AICc/BIC 是带假设的候选比较指标：对所用权重下的实／虚残差采用共同未知方差，k 计入自由参数与一个方差参数。评分接近、候选未可靠求解或有辨识／适用性风险时保留判断。模值权重不是实测噪声，分数也不是模型正确概率。</p>
       <p data-help-zh="详情页可以增加起点和迭代上限，例如 20 起点 × 1000 步，复核默认预算下的局部解；请同时比较残差、边界和多起点差异，而不是只看“已收敛”。" data-help-en="Use the detail view to increase starts and iterations, for example 20 starts × 1000 iterations, to review a local solution found with the default budget. Compare residuals, bounds and variation between starts alongside the convergence status.">详情页可以增加起点和迭代上限，例如 20 起点 × 1000 步，复核默认预算下的局部解；请同时比较残差、边界和多起点差异，而不是只看“已收敛”。</p>
+    </div></details>
+    <details id="studio-help-method-dx12" class="studio-help-details" tabindex="-1"><summary data-help-zh="DX12 · Bisquert #3 多孔薄膜传输线" data-help-en="DX12 · Bisquert #3 porous-film transmission line">DX12 · Bisquert #3 多孔薄膜传输线</summary><div class="studio-help-details-body">
+      <p data-help-zh="在自定义电路中选择 DX12 模板，可编辑 X1 = R ∥ CPE(T, P)、末端 X2 = U ∥ CPE(A, B) 和分布横向 X3 = C ∥ CPE(D, E)。C 在这里是电阻，单位 Ω；D 为 CPE 系数。图中重复单元表示连续分布结构，计算不采用有限段近似。" data-help-en="Select DX12 in the custom-circuit editor to configure X1 = R ∥ CPE(T, P), the end termination X2 = U ∥ CPE(A, B) and distributed shunt X3 = C ∥ CPE(D, E). C here is resistance in Ω; D is a CPE coefficient. Repeated diagram cells illustrate the continuous structure; evaluation is not a finite-section approximation.">在自定义电路中选择 DX12 模板，可编辑 X1 = R ∥ CPE(T, P)、末端 X2 = U ∥ CPE(A, B) 和分布横向 X3 = C ∥ CPE(D, E)。C 在这里是电阻，单位 Ω；D 为 CPE 系数。图中重复单元表示连续分布结构，计算不采用有限段近似。</p>
+      <p data-help-zh="按 ZView DX12 的约定，R、U、C 或 CPE 系数为 0 表示不使用该支路，不能理解为短路。默认使用 X1 电阻、X3 CPE 和开路末端，关闭参数保持固定。要启用支路拟合，先设正初值和正下限，再取消固定。P、B、E 为 0–1 的无量纲指数。" data-help-en="Following the ZView DX12 convention, zero R, U, C or CPE coefficient means that branch is unused, rather than shorted. Defaults use an X1 resistor, X3 CPE and open end, with inactive parameters fixed. To fit an active branch, first set positive initials and lower bounds, then release it. P, B and E are dimensionless exponents from 0 to 1.">按 ZView DX12 的约定，R、U、C 或 CPE 系数为 0 表示不使用该支路，不能理解为短路。默认使用 X1 电阻、X3 CPE 和开路末端，关闭参数保持固定。要启用支路拟合，先设正初值和正下限，再取消固定。P、B、E 为 0–1 的无量纲指数。</p>
+      <p class="studio-help-equation">s = j2πf · g(R) = 0 if R = 0, otherwise 1/R<br>x1 = 1 / [g(R) + T·s<sup>P</sup>] · y3 = g(C) + D·s<sup>E</sup> · yb = g(U) + A·s<sup>B</sup><br>v = F√(x1·y3) · b = tanh(v)/v<br>ZDX12 = (1 + x1·F·yb·b) / (yb + y3·F·b)</p>
+      <p data-help-zh="F 是必须固定的正长度，默认归一化为 1；分布参数的单位随长度定义而定。拟合所得 D 不能直接解释为材料扩散系数。可将 DX12 与外部 Rs、L、电容或 CPE 串并联组合；它与 DX28 均为按结构手动选择的模型，不进入首页自动候选。多余支路可能导致参数补偿，低误差不保证每个参数都被独立确定。" data-help-en="F is a positive length that must be fixed, normalized to 1 by default; distributed parameter units depend on that length convention. Fitted D is not directly a material diffusion coefficient. Combine DX12 with external Rs, L, capacitors or CPEs in series/parallel as appropriate. DX12 and DX28 require a structure-based manual choice and are excluded from automatic homepage candidates. Redundant branches can cause parameter compensation; a low error does not ensure independent parameter identification.">F 是必须固定的正长度，默认归一化为 1；分布参数的单位随长度定义而定。拟合所得 D 不能直接解释为材料扩散系数。可将 DX12 与外部 Rs、L、电容或 CPE 串并联组合；它与 DX28 均为按结构手动选择的模型，不进入首页自动候选。多余支路可能导致参数补偿，低误差不保证每个参数都被独立确定。</p>
+    </div></details>
+    <details id="studio-help-method-dx28" class="studio-help-details" tabindex="-1"><summary data-help-zh="DX28 · Barsoukov 多孔电极传输线" data-help-en="DX28 · Barsoukov porous-electrode transmission line">DX28 · Barsoukov 多孔电极传输线</summary><div class="studio-help-details-body">
+      <p data-help-zh="在等效电路详情页的自定义电路中选择 DX28 模板，再复制到编辑器。该模型将孔道中的电解液传输、界面反应、颗粒内球形扩散与储能耦合计算；可按实验情况在外部串联 Rs、L，或组合其他支路。首页 20 种常见电路的自动候选库保持独立。" data-help-en="Select the DX28 template in the custom-circuit editor of the equivalent-circuit detail view and copy it into the editor. It couples pore-electrolyte transport, interfacial reaction, spherical particle diffusion and storage. Add external Rs, L or other branches when appropriate for the experiment. The overview's 20 common automatic candidates remain separate.">在等效电路详情页的自定义电路中选择 DX28 模板，再复制到编辑器。该模型将孔道中的电解液传输、界面反应、颗粒内球形扩散与储能耦合计算；可按实验情况在外部串联 Rs、L，或组合其他支路。首页 20 种常见电路的自动候选库保持独立。</p>
+      <p data-help-zh="九个模型参数按 ZView 的顺序为 Rm、Rct、Cdl、Rd、Cd、Rp、Cp、CPE-B-T（TB）和 CPE-B-P（PB）。电阻单位为 Ω，电容为 F，TB 为 S·s^PB，PB 无量纲。长度采用模型约定 L = 1，末端电阻固定为 10²⁰ Ω；它们不增加拟合参数。" data-help-en="The nine model parameters follow ZView's order: Rm, Rct, Cdl, Rd, Cd, Rp, Cp, CPE-B-T (TB) and CPE-B-P (PB). Resistances are in Ω, capacitances in F, TB in S·s^PB and PB is dimensionless. The model uses L = 1 and a fixed 10²⁰ Ω terminal resistance; neither is an additional fit parameter.">九个模型参数按 ZView 的顺序为 Rm、Rct、Cdl、Rd、Cd、Rp、Cp、CPE-B-T（TB）和 CPE-B-P（PB）。电阻单位为 Ω，电容为 F，TB 为 S·s^PB，PB 无量纲。长度采用模型约定 L = 1，末端电阻固定为 10²⁰ Ω；它们不增加拟合参数。</p>
+      <p class="studio-help-equation">s = j2πf · H(s) = sCd + sCp / (1 + sRpCp)<br>u = √(3RdH) · Zd = Rd · tanh(u) / [u − tanh(u)]<br>Y3 = sCdl + 1 / (Rct + Zd) · Yb = 10⁻²⁰ + TB · s<sup>PB</sup><br>v = √(RmY3) · B = tanh(v) / v<br>ZDX28 = (1 + RmYbB) / (Yb + Y3B)</p>
+      <p data-help-zh="默认关闭末端 CPE（TB = 0），并固定 TB、PB。若要拟合末端 CPE，先将 TB 的初值和下限设为正数，再取消固定；PB 可在 0–1 范围内调整。其他自由参数采用严格正的下限，固定参数可用零值表示模型的相应极限。" data-help-en="The terminal CPE is disabled by default (TB = 0), with TB and PB fixed. To fit it, set a positive TB initial value and lower bound before freeing it; PB may vary from 0 to 1. Other free parameters require strictly positive lower bounds, while fixed zero parameters represent the corresponding model limits.">默认关闭末端 CPE（TB = 0），并固定 TB、PB。若要拟合末端 CPE，先将 TB 的初值和下限设为正数，再取消固定；PB 可在 0–1 范围内调整。其他自由参数采用严格正的下限，固定参数可用零值表示模型的相应极限。</p>
+      <p data-help-zh="Cd 为球形扩散的储能参数，Rp、Cp 定义 Zd 中的附加串联 RC 支路，物理归属需结合实验确认；不能直接把这些值当作任意材料的总化学电容。由拟合值换算扩散系数、比电容或电导率，还需要与模型一致的颗粒尺寸、面积、体积和单位。多个参数可能互相补偿，需检查频窗、残差、边界和固定已知参数后的稳定性。" data-help-en="Cd describes spherical-diffusion storage, while Rp and Cp define an additional series RC branch within Zd. Its physical assignment requires experimental support; these values are not automatically the total chemical capacitance of an arbitrary material. Diffusivity, specific capacitance or conductivity conversions also require consistent particle size, area, volume and units. Parameters can compensate for one another; inspect the frequency window, residuals, bounds and stability when independently known parameters are fixed.">Cd 为球形扩散的储能参数，Rp、Cp 定义 Zd 中的附加串联 RC 支路，物理归属需结合实验确认；不能直接把这些值当作任意材料的总化学电容。由拟合值换算扩散系数、比电容或电导率，还需要与模型一致的颗粒尺寸、面积、体积和单位。多个参数可能互相补偿，需检查频窗、残差、边界和固定已知参数后的稳定性。</p>
+      <p data-help-zh="方程依据 Scribner 官方 ZView 帮助中的 DX28 和 DX12 定义独立实现。电路图中的有限支路用于说明连续分布结构，计算采用连续模型；它与离子／电子双通道 MIEC 模型的边界条件不同。" data-help-en="The equations are independently implemented from the DX28 and DX12 definitions in Scribner's official ZView help. The finite branches in the diagram illustrate the continuous distributed structure; evaluation uses the continuous model. Its boundaries differ from those of a two-rail ionic/electronic MIEC model.">方程依据 Scribner 官方 ZView 帮助中的 DX28 和 DX12 定义独立实现。电路图中的有限支路用于说明连续分布结构，计算采用连续模型；它与离子／电子双通道 MIEC 模型的边界条件不同。</p>
     </div></details>
     <details id="studio-help-method-advanced" class="studio-help-details"><summary data-help-zh="高级分析 · 精度、窗口、BHT 与条件区间" data-help-en="Advanced analysis · precision, windows, BHT and conditional intervals">高级分析 · 精度、窗口、BHT 与条件区间</summary><div class="studio-help-details-body">
       <p data-help-zh="严格精度复算检查相同数学目标的数值精度；窗口敏感性检查改变时间范围后的分布稳定性。两者回答的问题不同，都不会自动替换主结果。" data-help-en="Strict precision checks numerical accuracy for the same mathematical target. Window sensitivity checks distribution stability when the time range changes. They answer different questions and do not automatically replace the main result.">严格精度复算检查相同数学目标的数值精度；窗口敏感性检查改变时间范围后的分布稳定性。两者回答的问题不同，都不会自动替换主结果。</p>
@@ -969,9 +999,11 @@ body.studio-enabled{background:#f6f7f9}
       <ol class="studio-help-citations">
         <li><a href="https://doi.org/10.21105/joss.02349" target="_blank" rel="noopener noreferrer">Murbach, M. D., Gerwe, B., Dawson-Elli, N., &amp; Tsui, L.-k. (2020). impedance.py: A Python package for electrochemical impedance analysis. <em>Journal of Open Source Software, 5</em>(52), 2349.</a></li>
         <li><a href="https://doi.org/10.1137/0111030" target="_blank" rel="noopener noreferrer">Marquardt, D. W. (1963). An algorithm for least-squares estimation of nonlinear parameters. <em>Journal of the Society for Industrial and Applied Mathematics, 11</em>(2), 431–441.</a></li>
+        <li><a href="https://doi.org/10.1016/S0167-2738(03)00150-4" target="_blank" rel="noopener noreferrer">Barsoukov, E., et al. (2003). Comparison of kinetic properties of LiCoO₂ and LiTi₀.₀₅Mg₀.₀₅Ni₀.₇Co₀.₂O₂ by impedance spectroscopy. <em>Solid State Ionics, 161</em>, 19–29.</a></li>
+        <li><a href="https://doi.org/10.1039/B001708F" target="_blank" rel="noopener noreferrer">Bisquert, J. (2000). Influence of the boundaries in the impedance of porous film electrodes. <em>Physical Chemistry Chemical Physics, 2</em>, 4185–4192.</a></li>
         <li><a href="https://doi.org/10.1016/j.electacta.2022.140474" target="_blank" rel="noopener noreferrer">Li, H., Lyu, Z., &amp; Han, M. (2022). Robust and fast estimation of equivalent circuit model from noisy electrochemical impedance spectra. <em>Electrochimica Acta, 422</em>, 140474.</a></li>
       </ol>
-      <p class="studio-help-source-link"><a href="https://github.com/ECSHackWeek/impedance.py" target="_blank" rel="noopener noreferrer">impedance.py · GitHub ↗</a><a href="https://impedancepy.readthedocs.io/en/latest/_modules/impedance/models/circuits/elements.html" target="_blank" rel="noopener noreferrer" data-help-zh="R/C/L/CPE/W/Ws/Wo 定义 ↗" data-help-en="R/C/L/CPE/W/Ws/Wo definitions ↗">R/C/L/CPE/W/Ws/Wo 定义 ↗</a></p>
+      <p class="studio-help-source-link"><a href="https://github.com/ECSHackWeek/impedance.py" target="_blank" rel="noopener noreferrer">impedance.py · GitHub ↗</a><a href="https://impedancepy.readthedocs.io/en/latest/_modules/impedance/models/circuits/elements.html" target="_blank" rel="noopener noreferrer" data-help-zh="R/C/L/CPE/W/Ws/Wo 定义 ↗" data-help-en="R/C/L/CPE/W/Ws/Wo definitions ↗">R/C/L/CPE/W/Ws/Wo 定义 ↗</a><a href="https://www.scribner.com/software/" target="_blank" rel="noopener noreferrer" data-help-zh="ZView 官方软件与文档入口 ↗" data-help-en="Official ZView software and documentation ↗">ZView 官方软件与文档入口 ↗</a></p>
       <p class="studio-help-muted" data-help-zh="impedance.py 提供元件与 Lin-KK 约定的参考；本软件使用独立的 JavaScript 拟合与线性代数实现。Marquardt 为非线性最小二乘背景来源。EISART 为电路估计思路的研究参考，其源代码和图形不包含在本软件中。" data-help-en="impedance.py supplies element and Lin-KK conventions; this software uses independently implemented JavaScript fitting and linear algebra. Marquardt provides nonlinear least-squares background. EISART is a research reference for circuit-estimation ideas; its source code and graphics are not included in this software.">impedance.py 提供元件与 Lin-KK 约定的参考；本软件使用独立的 JavaScript 拟合与线性代数实现。Marquardt 为非线性最小二乘背景来源。EISART 为电路估计思路的研究参考，其源代码和图形不包含在本软件中。</p>
     </div></details>
     <details class="studio-help-details"><summary data-help-zh="条件采样与区间" data-help-en="Conditional sampling and intervals">条件采样与区间</summary><div class="studio-help-details-body">
@@ -3760,10 +3792,15 @@ SOFTWARE.
     C0: descriptor('C0', 'F', 'capacitance', 1e-4, 1e-18, 1e9),
     C1: descriptor('C1', 'F', 'capacitance', 1e-4, 1e-18, 1e9),
     C2: descriptor('C2', 'F', 'capacitance', 1e-3, 1e-18, 1e9),
+    Cgeo: descriptor('Cgeo', 'F', 'capacitance', 1e-9, 1e-18, 1e9),
+    Q0: descriptor('Q0', 'S·s^α', 'cpe', 1e-4, 1e-18, 1e9),
     Q1: descriptor('Q1', 'S·s^α', 'cpe', 1e-4, 1e-18, 1e9),
     Q2: descriptor('Q2', 'S·s^α', 'cpe', 1e-3, 1e-18, 1e9),
+    Qgeo: descriptor('Qgeo', 'S·s^α', 'cpe', 1e-9, 1e-18, 1e9),
+    a0: descriptor('a0', '', 'exponent', 0.85, 0.05, 1),
     a1: descriptor('a1', '', 'exponent', 0.85, 0.05, 1),
     a2: descriptor('a2', '', 'exponent', 0.85, 0.05, 1),
+    ageo: Object.assign(descriptor('ageo', '', 'exponent', 0.9, 0.05, 1), { label: 'αgeo' }),
     Aw: descriptor('Aw', 'Ω·s⁻¹ᐟ²', 'warburg', 10, 1e-12, 1e12),
     Rw: descriptor('Rw', 'Ω', 'resistance', 50, 1e-12, 1e12),
     tauD: descriptor('tauD', 's', 'time', 1, 1e-15, 1e15),
@@ -3789,7 +3826,11 @@ SOFTWARE.
     model('inductive_double_rc', '电感与双 RC', 'Inductance and two RCs', 'L0 + Rs + (R1 ‖ C1) + (R2 ‖ C2)', ['L0','Rs','R1','C1','R2','C2'], '串联电感、电阻与两个并联 RC。', 'Series inductance, resistance and two parallel RC branches.'),
     model('inductive_double_zarc', '电感与双 ZARC', 'Inductance and two ZARCs', 'L0 + Rs + (R1 ‖ Q1) + (R2 ‖ Q2)', ['L0','Rs','R1','Q1','a1','R2','Q2','a2'], '串联电感、电阻与两个 RQ 支路。', 'Series inductance, resistance and two RQ branches.'),
     model('inductive_zarc_w', '电感、ZARC 与串联扩散', 'Inductance, ZARC and series diffusion', 'L0 + Rs + (R1 ‖ Q1) + W', ['L0','Rs','R1','Q1','a1','Aw'], '一个 RQ 支路与半无限扩散串联；W 不在并联支路内部。', 'One RQ branch in series with semi-infinite diffusion; W is outside the parallel branch.'),
-    model('inductive_double_zarc_w', '电感、双 ZARC 与串联扩散', 'Inductance, two ZARCs and series diffusion', 'L0 + Rs + (R1 ‖ Q1) + (R2 ‖ Q2) + W', ['L0','Rs','R1','Q1','a1','R2','Q2','a2','Aw'], '两个 RQ 支路与半无限扩散串联；不同于 Randles 的并联内部扩散。', 'Two RQ branches in series with semi-infinite diffusion; distinct from diffusion inside a Randles parallel branch.')
+    model('inductive_double_zarc_w', '电感、双 ZARC 与串联扩散', 'Inductance, two ZARCs and series diffusion', 'L0 + Rs + (R1 ‖ Q1) + (R2 ‖ Q2) + W', ['L0','Rs','R1','Q1','a1','R2','Q2','a2','Aw'], '两个 RQ 支路与半无限扩散串联；不同于 Randles 的并联内部扩散。', 'Two RQ branches in series with semi-infinite diffusion; distinct from diffusion inside a Randles parallel branch.'),
+    model('series_cpe', '串联 R–CPE', 'Series R–CPE', 'Rs + Q0', ['Rs','Q0','a0'], '串联电阻与常相位元件，适合倾斜的阻塞型低频响应。', 'Series resistance and a constant phase element for a tilted blocking response.'),
+    model('mixed_rc_zarc', 'RC 与 ZARC 串联', 'RC and ZARC in series', 'Rs + (R1 ‖ C1) + (R2 ‖ Q2)', ['Rs','R1','C1','R2','Q2','a2'], '一个理想 RC 与一个 R–CPE 支路串联；需要检查时间尺度重叠和参数可辨识性。', 'An ideal RC branch and a resistor–CPE branch in series; overlapping time scales may limit identification.'),
+    model('parallel_capacitor', '外部并联电容', 'Global parallel capacitor', '(Rs + Q1) ‖ Cgeo', ['Rs','Q1','a1','Cgeo'], '电容跨接整个 R–CPE 串联支路；Cgeo 是连接位置名称，不直接确定几何电容机理。', 'A capacitor shunts the complete series R–CPE branch; its connection does not establish a geometric-capacitance mechanism.'),
+    model('parallel_cpe', '外部并联 CPE', 'Global parallel CPE', '(Rs + Q1) ‖ Qgeo', ['Rs','Q1','a1','Qgeo','ageo'], '常相位元件跨接整个 R–CPE 串联支路；两个 CPE 可能高度相关，需检查可靠性。', 'A CPE shunts the complete series R–CPE branch; the two CPEs may be strongly correlated.')
   ];
   const byId = Object.fromEntries(models.map(value => [value.id, value]));
   function getModel(id) { if (!byId[id]) fail('Unknown equivalent-circuit model: ' + id); return byId[id]; }
@@ -3824,6 +3865,25 @@ SOFTWARE.
       Aw: Math.max(s.rp * 0.1, Math.abs(low.im)) * Math.sqrt(TWO_PI * s.fmin),
       Rw: s.rp * 0.3, tauD: 1 / (TWO_PI * Math.sqrt(s.fmin * Math.min(s.fmax, s.fmin * 1e4))),
       L0: Math.max(Math.max(high.im, 0) / (TWO_PI * high.f), s.amplitude / (TWO_PI * s.fmax) * 0.01) };
+    // Additive defaults for the expanded library. The original sixteen models
+    // retain the same values, branch ordering, and floating-point operations.
+    if (modelId === 'series_cpe') {
+      values.a0 = clamp(2 * Math.atan2(Math.max(0, -low.im), Math.max(0, low.re - s.rs)) / Math.PI, 0.2, 1);
+      values.Q0 = 1 / (Math.max(Math.hypot(low.re - s.rs, low.im), s.amplitude * 1e-6) * Math.pow(TWO_PI * low.f, values.a0));
+    }
+    if (modelId === 'mixed_rc_zarc') {
+      values.R1 = s.rp * 0.5; values.R2 = s.rp * 0.5;
+      values.C1 = s.tau * 0.1 / values.R1; values.Q2 = Math.pow(s.tau * 10, a) / values.R2;
+    }
+    if (modelId === 'parallel_capacitor' || modelId === 'parallel_cpe') {
+      const phaseRatio = point => Math.abs(point.im) / Math.max(Math.hypot(point.re, point.im), s.amplitude * 1e-12);
+      const plateau = data.reduce((a, b) => phaseRatio(b) < phaseRatio(a) ? b : a), highModulus = Math.max(Math.hypot(high.re, high.im), s.amplitude * 1e-12);
+      values.Rs = Math.max(s.rs, plateau.re);
+      values.a1 = clamp(2 * Math.atan2(Math.max(0, -low.im), Math.max(0, low.re - values.Rs)) / Math.PI, 0.2, 1);
+      values.Q1 = 1 / (Math.max(Math.hypot(low.re - values.Rs, low.im), s.amplitude * 1e-6) * Math.pow(TWO_PI * low.f, values.a1));
+      values.Cgeo = Math.max(Math.abs(high.im) / (TWO_PI * high.f * highModulus ** 2), 1e-30);
+      values.ageo = 0.9; values.Qgeo = 1 / (highModulus * Math.pow(TWO_PI * high.f, values.ageo));
+    }
     return m.parameters.map(p => {
       let lower = p.lower, upper = p.upper;
       if (p.kind === 'resistance' || p.kind === 'warburg') { lower = Math.max(1e-100, s.amplitude * 1e-12); upper = Math.min(1e100, s.amplitude * 1e8); }
@@ -3882,6 +3942,10 @@ SOFTWARE.
     const mag = r * q * Math.pow(w, a), phase = Math.PI * a / 2;
     return div(r, 0, 1 + mag * Math.cos(phase), mag * Math.sin(phase));
   }
+  function cpe(q, a, w) {
+    const size = q * Math.pow(w, a), phase = Math.PI * a / 2;
+    return div(1, 0, size * Math.cos(phase), size * Math.sin(phase));
+  }
   function finiteDiffusion(r, tau, w, open) {
     const x = w * tau;
     if (x < 1e-6) {
@@ -3926,6 +3990,17 @@ SOFTWARE.
       }
       if (modelId.startsWith('inductive_')) z[1] += w * p.L0;
       if (modelId === 'inductive_zarc_w' || modelId === 'inductive_double_zarc_w') { const d=p.Aw/Math.sqrt(w); z[0]+=d; z[1]-=d; }
+      if (modelId === 'series_cpe') { branch = cpe(p.Q0, p.a0, w); z[0] += branch[0]; z[1] += branch[1]; }
+      if (modelId === 'mixed_rc_zarc') {
+        branch = rc(p.R1, p.C1, w); z[0] += branch[0]; z[1] += branch[1];
+        branch = rq(p.R2, p.Q2, p.a2, w); z[0] += branch[0]; z[1] += branch[1];
+      }
+      if (modelId === 'parallel_capacitor' || modelId === 'parallel_cpe') {
+        branch = cpe(p.Q1, p.a1, w); const base = [p.Rs + branch[0], branch[1]], y = div(1, 0, base[0], base[1]);
+        if (modelId === 'parallel_capacitor') y[1] += w * p.Cgeo;
+        else { const size = p.Qgeo * Math.pow(w, p.ageo), phase = Math.PI * p.ageo / 2; y[0] += size * Math.cos(phase); y[1] += size * Math.sin(phase); }
+        z = div(1, 0, y[0], y[1]);
+      }
       if (!Number.isFinite(z[0]) || !Number.isFinite(z[1])) fail('Circuit prediction exceeds the finite numerical range.');
       re.push(z[0]); im.push(z[1]);
     }
@@ -4029,6 +4104,22 @@ SOFTWARE.
         if (model.includes('double_zarc')) branch(p.R2, p.Q2, p.a2, 'R2', 'Q2', 'a2');
       }
       if (model === 'series_rc') d.C0 = [0, 1 / (w * p.C0)];
+      if (model === 'series_cpe') {
+        d.Q0 = scale(cpe(p.Q0, p.a0, w), -1); d.a0 = mul(d.Q0, [Math.log(w), Math.PI / 2]);
+      }
+      if (model === 'mixed_rc_zarc') {
+        branch(p.R1, p.C1, 1, 'R1', 'C1'); branch(p.R2, p.Q2, p.a2, 'R2', 'Q2', 'a2');
+      }
+      if (model === 'parallel_capacitor' || model === 'parallel_cpe') {
+        const inner = cpe(p.Q1, p.a1, w), base = [p.Rs + inner[0], inner[1]], inverseBase = div(1, 0, base[0], base[1]);
+        const isCpe = model === 'parallel_cpe', magnitude = isCpe ? p.Qgeo * Math.pow(w, p.ageo) : w * p.Cgeo;
+        const Y = isCpe ? [magnitude * Math.cos(Math.PI * p.ageo / 2), magnitude * Math.sin(Math.PI * p.ageo / 2)] : [0, magnitude];
+        const terminal = div(1, 0, inverseBase[0] + Y[0], inverseBase[1] + Y[1]);
+        const ratio = div(terminal[0], terminal[1], base[0], base[1]), ratioSquare = mul(ratio, ratio);
+        d.Rs = scale(ratioSquare, p.Rs); d.Q1 = scale(mul(inner, ratioSquare), -1); d.a1 = mul(d.Q1, [Math.log(w), Math.PI / 2]);
+        d[isCpe ? 'Qgeo' : 'Cgeo'] = scale(mul(terminal, mul(Y, terminal)), -1);
+        if (isCpe) d.ageo = mul(d.Qgeo, [Math.log(w), Math.PI / 2]);
+      }
       if (model.startsWith('inductive_')) d.L0 = [0, w * p.L0];
       if (model === 'inductive_zarc_w' || model === 'inductive_double_zarc_w') { const a = p.Aw / Math.sqrt(w); d.Aw = [a, -a]; }
       if (model.startsWith('randles')) {
@@ -4258,6 +4349,16 @@ SOFTWARE.
         relationToDRTPeak: kind === 'branch' ? 'isolated-branch-center' : 'not-an-independent-DRT-peak' });
     }
     if (modelId === 'series_rc') time('RsC0', 'series-crossover', 'Rs*C0', Math.log(values.Rs) + Math.log(values.C0));
+    if (modelId === 'series_cpe') time('RsQ0', 'series-crossover', '(Rs*Q0)^(1/a0)', (Math.log(values.Rs) + Math.log(values.Q0)) / values.a0);
+    if (modelId === 'mixed_rc_zarc') {
+      time('RC1', 'branch', 'R1*C1', Math.log(values.R1) + Math.log(values.C1));
+      time('RQ2', 'branch', '(R2*Q2)^(1/a2)', (Math.log(values.R2) + Math.log(values.Q2)) / values.a2);
+    }
+    if (modelId === 'parallel_capacitor' || modelId === 'parallel_cpe') {
+      time('RsQ1', 'nominal-coupled', '(Rs*Q1)^(1/a1)', (Math.log(values.Rs) + Math.log(values.Q1)) / values.a1);
+      if (modelId === 'parallel_capacitor') time('RsCgeo', 'nominal-coupled', 'Rs*Cgeo', Math.log(values.Rs) + Math.log(values.Cgeo));
+      else time('RsQgeo', 'nominal-coupled', '(Rs*Qgeo)^(1/ageo)', (Math.log(values.Rs) + Math.log(values.Qgeo)) / values.ageo);
+    }
     if (modelId === 'rc' || modelId === 'double_rc' || modelId === 'inductive_rc' || modelId === 'inductive_double_rc') {
       time('RC1', 'branch', 'R1*C1', Math.log(values.R1) + Math.log(values.C1));
       if (modelId.includes('double_rc')) time('RC2', 'branch', 'R2*C2', Math.log(values.R2) + Math.log(values.C2));
@@ -4303,7 +4404,8 @@ SOFTWARE.
         positiveImaginaryLongestRun, positiveImaginaryThresholdRelative: 1e-4, positiveImaginaryMinimumRun: 3,
         positiveImaginaryPatternUnsupported: !supportsPositiveImaginary && positiveImaginaryLongestRun >= 3 },
       notes: ['indicative-window-not-validity-bound', 'convergence-not-physical-identification', 'residual-flags-descriptive-not-tests',
-        ...(modelId.startsWith('randles') ? ['diffusion-coupled-times-not-independent-DRT-peaks'] : []), ...(branches.length > 1 ? ['overlap-threshold-not-resolution-theorem'] : [])] };
+        ...(modelId.startsWith('randles') ? ['diffusion-coupled-times-not-independent-DRT-peaks'] : []), ...(branches.length > 1 ? ['overlap-threshold-not-resolution-theorem'] : []),
+        ...(['parallel_capacitor','parallel_cpe'].includes(modelId) ? ['global-shunt-crossovers-coupled-not-independent-DRT-peaks', 'connection-name-not-physical-mechanism'] : [])] };
   }
   function resultDiagnostics(context, values, starts, metrics, converged, parameters) {
     const x = context.coordinate(values), r = context.residual(x), J = context.jacobian(x), pg = projectedGradient(context, x, J, r);
@@ -4464,7 +4566,154 @@ SOFTWARE.
   if (root) root.ECM = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);
 </script>
-<script id="ecm-custom-core-script">/* EISKit custom serial/parallel impedance circuits, version 1.
+<script id="ecm-custom-core-script">/* EISKit Studio: independently implemented Barsoukov DX28 and Bisquert DX12.
+ * Definition source: Scribner ZView4 official CHM, topic DX Type 28,
+ * dx28-1.png / dx28-2.png and exampleDX28_V3.mdl in the official installer.
+ * Source documents and software are not embedded in this implementation.
+ * s=j*omega; F=s*Cd+s*Cp/(1+s*Rp*Cp), q=sqrt(3*Rd*F),
+ * Zd=Rd*tanh(q)/(q-tanh(q)); X3=Cdl||(Rct+Zd).
+ * The normalized porous line has Rm, distributed admittance 1/X3,
+ * length 1 and terminal admittance 1e-20+TB*s^PB.
+ * DX12 additionally follows official ZView4 DX Type 12, dx-12a.png / dx-11b.png:
+ * X1=R||CPE(T,P), X2=U||CPE(A,B), X3=C||CPE(D,E), fixed length F.
+ * No ZView program execution or claim of binary-to-binary equivalence.
+ */
+(function(root){
+  'use strict';
+  const VERSION='barsoukov-dx28-v1',R_B=1e20;
+  const ROWS=[
+    ['Rm','Ω','resistance',1,1e-12,1e12,'孔道电阻','Pore resistance'],
+    ['Rct','Ω','resistance',1,1e-12,1e12,'电荷转移电阻','Charge-transfer resistance'],
+    ['Cdl','F','capacitance',.001,1e-18,1e9,'双电层电容','Double-layer capacitance'],
+    ['Rd','Ω','resistance',5,1e-12,1e12,'球形扩散电阻','Spherical diffusion resistance'],
+    ['Cd','F','capacitance',50,1e-18,1e9,'扩散储能电容','Diffusion storage capacitance'],
+    ['Rp','Ω','resistance',1,1e-12,1e12,'附加弛豫支路电阻','Additional relaxation branch resistance'],
+    ['Cp','F','capacitance',100,1e-18,1e9,'附加弛豫支路电容','Additional relaxation branch capacitance'],
+    ['TB','S·s^PB','cpe',0,0,1e9,'端部 CPE 系数','Terminal CPE coefficient'],
+    ['PB','','exponent',0,0,1,'端部 CPE 指数','Terminal CPE exponent']
+  ];
+  const DX12_VERSION='bisquert-dx12-v1';
+  const VERSIONS=Object.freeze({DX28:VERSION,DX12:DX12_VERSION});
+  // ZView DX12 uses the letter C for an X3 RESISTOR. R/U/C=0 removes
+  // that resistor branch; it does not short a node. F is a specified length,
+  // not a fit parameter. Unit length is the default normalization convention.
+  const DX12_ROWS=[
+    ['R','Ω','resistance',100,1e-12,1e12,'X1 串联通道电阻 R','X1 series-channel resistance R'],
+    ['T','S·s^P','cpe',0,0,1e9,'X1 CPE 系数 T','X1 CPE coefficient T'],
+    ['P','','exponent',1,0,1,'X1 CPE 指数 P','X1 CPE exponent P'],
+    ['U','Ω','resistance',0,0,1e12,'X2 末端支路电阻 U','X2 terminal-branch resistance U'],
+    ['A','S·s^B','cpe',0,0,1e9,'X2 末端 CPE 系数 A','X2 terminal CPE coefficient A'],
+    ['B','','exponent',1,0,1,'X2 末端 CPE 指数 B','X2 terminal CPE exponent B'],
+    ['C','Ω','resistance',0,0,1e12,'X3 分布支路电阻 C','X3 distributed-branch resistance C'],
+    ['D','S·s^E','cpe',1e-4,1e-18,1e9,'X3 分布 CPE 系数 D','X3 distributed CPE coefficient D'],
+    ['E','','exponent',.85,0,1,'X3 分布 CPE 指数 E','X3 distributed CPE exponent E'],
+    ['F','','length',1,1e-12,1e12,'归一化长度 F（必须固定）','Normalized length F (must be fixed)']
+  ];
+  function dx12Key(key){return typeof key==='string'&&/^DX12[A-Za-z0-9_]{0,23}$/.test(key);}
+  function dx12Parameters(key){return DX12_ROWS.map(([name,unit,kind,initial,lower,upper,nameZh,nameEn])=>({key:key+'_'+name,unit,kind,default:initial,lower,upper,nameZh,nameEn,...(name==='F'?{defaultFixed:true,requiredFixed:true}:{allowZero:true,...(!['R','D','E'].includes(name)?{defaultFixed:true}:{})})}));}
+  function dx12Defaults(key,summary){
+    const out={};for(const [name,,,initial]of DX12_ROWS)out[key+'_'+name]=initial;
+    if(summary){const positive=(v,d)=>typeof v==='number'&&Number.isFinite(v)&&v>0?v:d,r=positive(summary.rp,positive(summary.amplitude,100)),tau=positive(summary.tau,1);out[key+'_R']=r*.1;out[key+'_D']=Math.pow(tau,.85)/r;}
+    return out;
+  }
+  function dx12Values(key,p){
+    if(!p||typeof p!=='object'||Array.isArray(p))throw new Error('DX12 parameters are required.');
+    const out={};for(const [name]of DX12_ROWS){const v=p[key+'_'+name];if(typeof v!=='number'||!Number.isFinite(v)||v<0||v>1e100||['P','B','E'].includes(name)&&v>1||name==='F'&&v===0)throw new Error('Invalid DX12 parameter '+name+'.');out[name]=v;}
+    return out;
+  }
+  const add=(a,b)=>[a[0]+b[0],a[1]+b[1]],scale=(a,k)=>[a[0]*k,a[1]*k];
+  const mul=(a,b)=>[a[0]*b[0]-a[1]*b[1],a[0]*b[1]+a[1]*b[0]];
+  function div(a,b){
+    const ar=a[0],ai=a[1],br=b[0],bi=b[1];
+    if(br===0&&bi===0)throw new Error('Singular transmission-line impedance.');
+    if(Math.abs(br)>=Math.abs(bi)){const r=bi/br,d=br+bi*r;return [(ar+ai*r)/d,(ai-ar*r)/d];}
+    const r=br/bi,d=bi+br*r;return [(ar*r+ai)/d,(ai*r-ar)/d];
+  }
+  function sqrt(a){const h=Math.hypot(a[0],a[1]);if(h===0)return [0,0];if(a[0]>=0){const re=Math.sqrt((h+a[0])*.5);return [re,a[1]/(2*re)];}const im=Math.sqrt((h-a[0])*.5)*(a[1]<0?-1:1);return [a[1]/(2*im),im];}
+  function tanh(a){
+    if(a[0]>20)return [1,0];
+    const t=Math.exp(-2*a[0]),c=Math.cos(2*a[1]),s=Math.sin(2*a[1]),d=1+2*t*c+t*t;
+    return [-Math.expm1(-4*a[0])/d,2*t*s/d];
+  }
+  function tanhc(q){
+    if(Math.hypot(...q)<.01){const z=mul(q,q);return add([1,0],mul(z,add([-1/3,0],mul(z,add([2/15,0],scale(z,-17/315))))));}
+    return div(tanh(q),q);
+  }
+  function diffusionAdmittance(F,Rd){
+    if(Rd===0||F[0]===0&&F[1]===0)return F.slice();
+    const a=scale(F,Rd),q=sqrt(scale(a,3));
+    if(Math.hypot(...q)<.1){
+      // q*coth(q)-1 divided by Rd, expanded before cancellation.
+      const p=add([1,0],mul(a,add([-1/5,0],mul(a,add([2/35,0],mul(a,add([-3/175,0],scale(a,2/385))))))));
+      return mul(F,p);
+    }
+    return scale(add(div(q,tanh(q)),[-1,0]),1/Rd);
+  }
+  function elementKey(key){if(typeof key!=='string'||!/^DX28[A-Za-z0-9_]{0,23}$/.test(key))throw new Error('Invalid DX28 element key.');return key;}
+  function parameters(key){if(dx12Key(key))return dx12Parameters(key);elementKey(key);return ROWS.map(([name,unit,kind,initial,lower,upper,nameZh,nameEn])=>({key:key+'_'+name,unit,kind,default:initial,lower,upper,nameZh,nameEn,allowZero:true,...(name==='TB'||name==='PB'?{defaultFixed:true}:{})}));}
+  function values(key,p){
+    elementKey(key);if(!p||typeof p!=='object'||Array.isArray(p))throw new Error('DX28 parameters are required.');
+    const out={};for(const [name]of ROWS){const v=p[key+'_'+name];if(typeof v!=='number'||!Number.isFinite(v)||v<0||v>1e100||name==='PB'&&v>1)throw new Error('Invalid DX28 parameter '+name+'.');out[name]=v;}return out;
+  }
+  function defaultValues(key,summary){
+    if(dx12Key(key))return dx12Defaults(key,summary);
+    elementKey(key);const out={};for(const [name,,,initial]of ROWS)out[key+'_'+name]=initial;
+    if(!summary)return out;
+    const finite=(v,d)=>typeof v==='number'&&Number.isFinite(v)&&v>0?v:d;
+    const rp=finite(summary.rp,finite(summary.amplitude,100)),tau=finite(summary.tau,1),r=rp*.4;
+    Object.assign(out,{[key+'_Rm']:rp*.08,[key+'_Rct']:r,[key+'_Rd']:r,[key+'_Cd']:tau/(3*r),[key+'_Rp']:rp*.2,[key+'_Cp']:tau/(6*r),[key+'_Cdl']:tau/r*.02,[key+'_TB']:0,[key+'_PB']:1});
+    return out;
+  }
+  function impedance(omega,key,p){
+    if(dx12Key(key))return dx12Impedance(omega,key,p);
+    if(typeof omega!=='number'||!Number.isFinite(omega)||omega<0||omega>1e101)throw new Error('Angular frequency must be finite and nonnegative.');
+    const v=values(key,p),sCd=[0,omega*v.Cd],sCp=[0,omega*v.Cp];
+    const F=add(sCd,div(sCp,[1,omega*v.Rp*v.Cp]));
+    const Yd=diffusionAdmittance(F,v.Rd),Yfar=div(Yd,add([1,0],scale(Yd,v.Rct)));
+    const Y3=add([0,omega*v.Cdl],Yfar);
+    const m=v.TB===0?0:v.TB*Math.pow(omega,v.PB),phase=Math.PI*v.PB/2;
+    const Yb=[1/R_B+m*Math.cos(phase),m*Math.sin(phase)],B=tanhc(sqrt(scale(Y3,v.Rm)));
+    const z=div(add([1,0],scale(mul(Yb,B),v.Rm)),add(Yb,mul(Y3,B)));
+    if(!z.every(Number.isFinite))throw new Error('Transmission-line parameters exceed the finite numerical range.');
+    return z;
+  }
+  function dx12Impedance(omega,key,p){
+    if(typeof omega!=='number'||!Number.isFinite(omega)||omega<0||omega>1e101)throw new Error('Angular frequency must be finite and nonnegative.');
+    const v=dx12Values(key,p);
+    function admittance(r,t,e){const m=t===0?0:t*Math.pow(omega,e),g=r===0?0:1/r;if(e===0)return [g+m,0];if(e===1)return [g,m];const phase=Math.PI*e/2;return [g+m*Math.cos(phase),m*Math.sin(phase)];}
+    const y1=admittance(v.R,v.T,v.P),y3=admittance(v.C,v.D,v.E),yb=admittance(v.U,v.A,v.B);
+    if(y1[0]===0&&y1[1]===0)throw new Error('DX12 X1 is open: enable its R or T branch.');
+    if(y3[0]===0&&y3[1]===0&&yb[0]===0&&yb[1]===0)throw new Error('DX12 is open: enable an X3 or terminal X2 branch.');
+    const x1=div([1,0],y1);let z;
+    if(y3[0]===0&&y3[1]===0){
+      // With no distributed shunt, the line is a series impedance followed
+      // by the terminal. This is also the exact v=0 continuous-line limit.
+      z=add(scale(x1,v.F),div([1,0],yb));
+    }else{
+      const q=sqrt(mul(x1,y3)),propagation=scale(q,v.F);
+      if(propagation[0]>20){
+        // tanh(v)=1 to double precision: the input is the characteristic
+        // impedance and is independent of a passive terminal. Avoid products
+        // such as x1*F*yb that can overflow although their ratio is finite.
+        z=div(x1,q);
+      }else{
+        const b=tanhc(propagation),fb=scale(b,v.F);
+        z=div(add([1,0],mul(mul(x1,fb),yb)),add(yb,mul(y3,fb)));
+      }
+    }
+    if(!z.every(Number.isFinite))throw new Error('DX12 parameters exceed the finite numerical range.');
+    return z;
+  }
+  function dx12Info(){return {version:DX12_VERSION,type:'DX12',name:'Bisquert #3 transmission line',parameterOrder:DX12_ROWS.map(q=>q[0]),lengthParameter:'F',lengthMustBeFixed:true,defaultNormalizedLength:1,zeroResistorConvention:'R/U/C = 0 removes that resistor branch; it is an open branch, not a short.',angularFrequency:'omega = 2*pi*f',definitionSource:'Official ZView4 CHM DX Type 12, dx-12a.png and dx-11b.png',verificationScope:'Independent implementation of the documented equations; not a ZView executable comparison.',formulas:{x1:'1/(g(R)+T*s^P)',y3:'g(C)+D*s^E',yb:'g(U)+A*s^B',g:'g(r)=0 if r=0; otherwise 1/r',v:'F*sqrt(x1*y3)',B:'tanh(v)/v, with its continuous v=0 limit',Z:'(1+x1*F*yb*B)/(yb+y3*F*B)'},sources:['https://www.scribner.com/software/','https://doi.org/10.1039/B001708F']};}
+  function info(){return {version:VERSION,type:'DX28',name:'Barsoukov porous-electrode transmission line',length:1,terminalResistanceOhm:R_B,parameterOrder:ROWS.map(q=>q[0]),angularFrequency:'omega = 2*pi*f',definitionSource:'Official ZView4 CHM DX Type 28 and exampleDX28_V3.mdl',verificationScope:'Independent implementation of the documented equations; not a ZView executable comparison.',formulas:{F:'s*Cd+s*Cp/(1+s*Rp*Cp)',q:'sqrt(3*Rd*F)',Zd:'Rd*tanh(q)/(q-tanh(q))',Y3:'s*Cdl+1/(Rct+Zd)',Yb:'1e-20+TB*s^PB',gamma:'sqrt(Rm*Y3)',B:'tanh(gamma)/gamma',Z:'(1+Rm*Yb*B)/(Yb+Y3*B)'},sources:['https://www.scribner.com/software/','https://doi.org/10.1016/S0167-2738(03)00150-4','https://doi.org/10.1039/B001708F']};}
+  const dx28Info=info;
+  const api=Object.freeze({VERSION,VERSIONS,parameters,defaultValues,impedance,info:(type='DX28')=>{if(type==='DX12')return dx12Info();if(type==='DX28')return dx28Info();throw new Error('Unknown transmission-line model.');}});
+  if(typeof module!=='undefined'&&module.exports)module.exports=api;
+  if(root)root.ECMTransmissionLine=api;
+})(typeof self!=='undefined'?self:typeof globalThis!=='undefined'?globalThis:this);
+
+;
+/* EISKit custom serial/parallel impedance circuits, version 1.
  * The bounded log-coordinate QR/LM and Jacobi-SVD routines are adapted from
  * this project's independently validated ecm-core.js. The fixed model engine
  * is neither patched nor depended upon. Generic topology and initial guesses
@@ -4476,6 +4725,12 @@ SOFTWARE.
 (function(root){
   'use strict';
   const TWO_PI=2*Math.PI,EPS=Number.EPSILON,DEFINITION_SCHEMA='eiskit-custom-circuit-v1',RESULT_SCHEMA='eiskit-custom-ecm-result-v1';
+  const TLM_DEFINITION_SCHEMA='eiskit-custom-circuit-v2',TLM_RESULT_SCHEMA='eiskit-custom-ecm-result-v2';
+  function transmissionLine(){const api=root.ECMTransmissionLine||(typeof require==='function'?require('./ecm-tlm-core.js'):null);if(!api)throw new Error('Transmission-line module is unavailable.');return api;}
+  function hasTransmissionLine(tree){return elements(tree).some(n=>n.type==='DX28'||n.type==='DX12');}
+  function modelVersions(tree){const types=new Set(elements(tree).map(n=>n.type)),out={};for(const type of ['DX28','DX12'])if(types.has(type))out[type]=transmissionLine().VERSIONS[type];return out;}
+  function definitionSchema(tree){return hasTransmissionLine(tree)?TLM_DEFINITION_SCHEMA:DEFINITION_SCHEMA;}
+  function resultSchema(tree){return hasTransmissionLine(tree)?TLM_RESULT_SCHEMA:RESULT_SCHEMA;}
   const LIMITS=Object.freeze({expression:2048,elements:24,parameters:32,depth:10,nodes:64,points:2000});
   const copy=x=>JSON.parse(JSON.stringify(x)),plain=x=>!!x&&typeof x==='object'&&!Array.isArray(x),clamp=(x,a,b)=>Math.min(b,Math.max(a,x));
   function fail(message){throw new Error(message);}
@@ -4483,7 +4738,7 @@ SOFTWARE.
   function same(a,b){return JSON.stringify(a)===JSON.stringify(b);}
   function keys(o,expected,label){if(!plain(o)||Object.keys(o).sort().join(',')!==expected.slice().sort().join(','))fail('Invalid '+label+' fields.');}
   function finiteTree(value){let nodes=0;const active=new Set();function walk(v,d){if(++nodes>250000||d>35)fail('Custom ECM result is too large.');if(typeof v==='number'&&!Number.isFinite(v))fail('Nonfinite custom ECM value.');if(v&&typeof v==='object'){if(active.has(v))fail('Cyclic custom ECM value.');active.add(v);for(const k of Object.keys(v)){if(['__proto__','constructor','prototype'].includes(k))fail('Forbidden custom ECM key.');walk(v[k],d+1);}active.delete(v);}}walk(value,0);}
-  function element(token){const m=/^(CPE|Ws|Wo|R|C|L|Q|W)([A-Za-z0-9_]{0,23})$/.exec(token);if(!m)fail('Unknown circuit element: '+token);return {kind:'element',type:m[1]==='Q'?'CPE':m[1],key:token};}
+  function element(token){const m=/^(DX28|DX12|CPE|Ws|Wo|R|C|L|Q|W)([A-Za-z0-9_]{0,23})$/.exec(token);if(!m)fail('Unknown circuit element: '+token);return {kind:'element',type:m[1]==='Q'?'CPE':m[1],key:token};}
   function compact(kind,children){const list=[];for(const c of children){if(c.kind===kind)list.push(...c.children);else list.push(c);}return list.length===1?list[0]:{kind,children:list};}
   function checkTopology(tree){let nodes=0;const ids=new Set(),active=new Set();function visit(n,d){if(++nodes>LIMITS.nodes||d>LIMITS.depth)fail('Circuit is too large or deeply nested.');if(!plain(n)||active.has(n))fail('Invalid or cyclic circuit topology.');active.add(n);if(n.kind==='element'){keys(n,['kind','type','key'],'element');const expected=element(n.key);if(n.type!==expected.type||ids.has(n.key))fail('Duplicate or inconsistent element: '+n.key);ids.add(n.key);}else{keys(n,['kind','children'],'connection');if(!['series','parallel'].includes(n.kind)||!Array.isArray(n.children)||n.children.length<2||n.children.length>LIMITS.elements)fail('A connection needs at least two branches.');n.children.forEach(c=>visit(c,d+1));}active.delete(n);}visit(tree,0);if(ids.size>LIMITS.elements)fail('At most '+LIMITS.elements+' elements are supported.');return tree;}
   function stringify(tree){checkTopology(tree);function s(n){return n.kind==='element'?n.key:'('+n.children.map(s).join(n.kind==='series'?' + ':' || ')+')';}const v=s(tree);return tree.kind==='element'?v:v.slice(1,-1);}
@@ -4496,11 +4751,11 @@ SOFTWARE.
     function series(){const children=[primary()];while(peek()==='+'||peek()==='-'){pos++;children.push(primary());}return compact('series',children);}
     function parallel(){const children=[series()];while(peek()==='||'){pos++;children.push(series());}return compact('parallel',children);}
     const topology=parallel();if(pos!==tokens.length)fail('Unexpected circuit token '+peek()+'.');checkTopology(topology);
-    const out={schema:DEFINITION_SCHEMA,expression:stringify(topology),topology};if(parameterDescriptors(topology).length>LIMITS.parameters)fail('At most '+LIMITS.parameters+' circuit parameters are supported.');return out;
+    const out={schema:definitionSchema(topology),expression:stringify(topology),topology};if(parameterDescriptors(topology).length>LIMITS.parameters)fail('At most '+LIMITS.parameters+' circuit parameters are supported.');return out;
   }
-  function normalizeDefinition(value){if(typeof value==='string')return parse(value);keys(value,['schema','expression','topology'],'circuit definition');if(value.schema!==DEFINITION_SCHEMA)fail('Unsupported custom circuit definition version.');checkTopology(value.topology);const expected=parse(value.expression),fromTree=parse(stringify(value.topology));if(!same(expected.topology,fromTree.topology))fail('Circuit expression and connection tree disagree.');return expected;}
+  function normalizeDefinition(value){if(typeof value==='string')return parse(value);keys(value,['schema','expression','topology'],'circuit definition');if(![DEFINITION_SCHEMA,TLM_DEFINITION_SCHEMA].includes(value.schema))fail('Unsupported custom circuit definition version.');checkTopology(value.topology);const expected=parse(value.expression),fromTree=parse(stringify(value.topology));if(value.schema!==expected.schema||!same(expected.topology,fromTree.topology))fail('Circuit expression, version and connection tree disagree.');return expected;}
   function elements(tree,out=[]){if(tree.kind==='element')out.push(tree);else tree.children.forEach(c=>elements(c,out));return out;}
-  function parameterDescriptors(tree){const out=[];function p(key,unit,kind,initial,lower,upper){out.push({key,unit,kind,default:initial,lower,upper});}for(const n of elements(tree)){const k=n.key;if(n.type==='R')p(k,'Ω','resistance',100,1e-12,1e12);if(n.type==='C')p(k,'F','capacitance',1e-4,1e-18,1e9);if(n.type==='L')p(k,'H','inductance',1e-6,1e-18,1e9);if(n.type==='CPE'){p(k,'S·s^α','cpe',1e-4,1e-18,1e9);p(k+'_alpha','','exponent',.85,.05,1);}if(n.type==='W')p(k,'Ω·s⁻¹ᐟ²','warburg',10,1e-12,1e12);if(n.type==='Ws'||n.type==='Wo'){p(k+'_R','Ω','resistance',50,1e-12,1e12);p(k+'_tau','s','time',1,1e-15,1e15);}}if(new Set(out.map(p=>p.key)).size!==out.length)fail('Element IDs create duplicate parameter names.');return out;}
+  function parameterDescriptors(tree){const out=[];function p(key,unit,kind,initial,lower,upper){out.push({key,unit,kind,default:initial,lower,upper});}for(const n of elements(tree)){const k=n.key;if(n.type==='DX28'||n.type==='DX12')out.push(...transmissionLine().parameters(k));if(n.type==='R')p(k,'Ω','resistance',100,1e-12,1e12);if(n.type==='C')p(k,'F','capacitance',1e-4,1e-18,1e9);if(n.type==='L')p(k,'H','inductance',1e-6,1e-18,1e9);if(n.type==='CPE'){p(k,'S·s^α','cpe',1e-4,1e-18,1e9);p(k+'_alpha','','exponent',.85,.05,1);}if(n.type==='W')p(k,'Ω·s⁻¹ᐟ²','warburg',10,1e-12,1e12);if(n.type==='Ws'||n.type==='Wo'){p(k+'_R','Ω','resistance',50,1e-12,1e12);p(k+'_tau','s','time',1,1e-15,1e15);}}if(new Set(out.map(p=>p.key)).size!==out.length)fail('Element IDs create duplicate parameter names.');return out;}
   function describe(value){const definition=normalizeDefinition(value);return {definition,expression:definition.expression,topology:definition.topology,parameters:parameterDescriptors(definition.topology),elements:elements(definition.topology)};}
   const TEMPLATE_ROWS=[
     ['resistor','纯电阻','Resistor','Rs'],['series_rc','串联 RC','Series RC','Rs + C0'],
@@ -4510,7 +4765,13 @@ SOFTWARE.
     ['randles_ws','Randles · 有限扩散短路端','Randles · short diffusion','Rs + (C1 || (Rct + Ws))'],['randles_wo','Randles · 有限扩散开路端','Randles · open diffusion','Rs + (C1 || (Rct + Wo))'],
     ['inductive_zarc','含串联电感的 ZARC','ZARC with series inductance','L0 + Rs + (R1 || Q1)'],['inductive_rc','电感与单 RC','Inductance and one RC','L0 + Rs + (R1 || C1)'],
     ['inductive_double_rc','电感与双 RC','Inductance and two RCs','L0 + Rs + (R1 || C1) + (R2 || C2)'],['inductive_double_zarc','电感与双 ZARC','Inductance and two ZARCs','L0 + Rs + (R1 || Q1) + (R2 || Q2)'],
-    ['inductive_zarc_w','电感、ZARC 与串联扩散','Inductance, ZARC and diffusion','L0 + Rs + (R1 || Q1) + W'],['inductive_double_zarc_w','电感、双 ZARC 与串联扩散','Inductance, two ZARCs and diffusion','L0 + Rs + (R1 || Q1) + (R2 || Q2) + W']
+    ['inductive_zarc_w','电感、ZARC 与串联扩散','Inductance, ZARC and diffusion','L0 + Rs + (R1 || Q1) + W'],['inductive_double_zarc_w','电感、双 ZARC 与串联扩散','Inductance, two ZARCs and diffusion','L0 + Rs + (R1 || Q1) + (R2 || Q2) + W'],
+    ['dx28','DX28 · Barsoukov 多孔电极传输线','DX28 · Barsoukov porous-electrode transmission line','DX281'],
+    ['series_cpe','串联 R–CPE','Series R–CPE','Rs + Q0'],
+    ['mixed_rc_zarc','RC 与 ZARC','RC and ZARC','Rs + (R1 || C1) + (R2 || Q2)'],
+    ['parallel_capacitor','全局并联电容','Global parallel capacitance','(Rs + Q1) || Cgeo'],
+    ['parallel_cpe','全局并联 CPE','Global parallel CPE','(Rs + Q1) || Qgeo'],
+    ['dx12','DX12 · Bisquert #3 传输线','DX12 · Bisquert #3 transmission line','DX121']
   ];
   function templates(){return TEMPLATE_ROWS.map(([id,nameZh,nameEn,expression])=>({id,nameZh,nameEn,expression:parse(expression).expression}));}
   function validateData(input){if(!Array.isArray(input)||input.length<6||input.length>LIMITS.points)fail('Custom ECM requires 6–2000 impedance points.');const seen=new Set();return input.map((q,i)=>{if(!plain(q))fail('Invalid impedance point '+i);const f=number(q.f,'Frequency'),re=number(q.re,'Real impedance'),im=number(q.im,'Imaginary impedance');if(!(f>=1e-100&&f<=1e100)||seen.has(f))fail('Frequencies must be positive and distinct, within 1e-100–1e100 Hz.');seen.add(f);return {f,re,im};});}
@@ -4518,14 +4779,14 @@ SOFTWARE.
   function defaults(input,value){
     const data=validateData(input),d=describe(value),s=dataSummary(data),reactive=d.elements.filter(e=>e.type==='C'||e.type==='CPE'),rCount=d.elements.filter(e=>e.type==='R').length;
     const logMin=-Math.log(TWO_PI*s.fmax),logMax=-Math.log(TWO_PI*s.fmin),values={};
-    for(const n of d.elements){const k=n.key,idx=reactive.indexOf(n),tau=reactive.length===1?s.tau:Math.exp(logMin+(idx+1)/(reactive.length+1)*(logMax-logMin)),r=s.rp/Math.max(1,rCount-1);if(n.type==='R')values[k]=k==='Rs'||k==='R0'?s.rs:r;if(n.type==='C')values[k]=tau/r;if(n.type==='CPE'){values[k]=Math.pow(tau,.85)/r;values[k+'_alpha']=.85;}if(n.type==='L'){const high=data.reduce((a,b)=>a.f>b.f?a:b);values[k]=Math.max(Math.max(0,high.im)/(TWO_PI*high.f),s.amplitude/(TWO_PI*s.fmax)*.01);}if(n.type==='W'){const low=data.reduce((a,b)=>a.f<b.f?a:b);values[k]=Math.max(s.rp*.1,Math.abs(low.im))*Math.sqrt(TWO_PI*s.fmin);}if(n.type==='Ws'||n.type==='Wo'){values[k+'_R']=s.rp*.3;values[k+'_tau']=1/(TWO_PI*Math.sqrt(s.fmin*Math.min(s.fmax,s.fmin*1e4)));}}
-    return d.parameters.map(p=>{let lower=p.lower,upper=p.upper;if(p.kind==='resistance'||p.kind==='warburg'){lower=Math.max(1e-100,s.amplitude*1e-12);upper=Math.min(1e100,s.amplitude*1e8);}if(p.kind==='capacitance'||p.kind==='cpe'){lower=Math.max(1e-100,p.lower/s.amplitude);upper=Math.min(1e100,p.upper/s.amplitude);}if(p.kind==='inductance'){lower=Math.max(1e-100,p.lower*s.amplitude);upper=Math.min(1e100,p.upper*s.amplitude);}return {key:p.key,initial:clamp(values[p.key],lower,upper),lower,upper,fixed:false};});
+    for(const n of d.elements){const k=n.key,idx=reactive.indexOf(n),tau=reactive.length===1?s.tau:Math.exp(logMin+(idx+1)/(reactive.length+1)*(logMax-logMin)),r=s.rp/Math.max(1,rCount-1);if(n.type==='R')values[k]=k==='Rs'||k==='R0'?s.rs:r;if(n.type==='C')values[k]=tau/r;if(n.type==='CPE'){values[k]=Math.pow(tau,.85)/r;values[k+'_alpha']=.85;}if(n.type==='L'){const high=data.reduce((a,b)=>a.f>b.f?a:b);values[k]=Math.max(Math.max(0,high.im)/(TWO_PI*high.f),s.amplitude/(TWO_PI*s.fmax)*.01);}if(n.type==='W'){const low=data.reduce((a,b)=>a.f<b.f?a:b);values[k]=Math.max(s.rp*.1,Math.abs(low.im))*Math.sqrt(TWO_PI*s.fmin);}if(n.type==='Ws'||n.type==='Wo'){values[k+'_R']=s.rp*.3;values[k+'_tau']=1/(TWO_PI*Math.sqrt(s.fmin*Math.min(s.fmax,s.fmin*1e4)));}if(n.type==='DX28'||n.type==='DX12')Object.assign(values,transmissionLine().defaultValues(k,s));}
+    return d.parameters.map(p=>{let lower=p.lower,upper=p.upper;if(p.kind==='resistance'||p.kind==='warburg'){lower=Math.max(1e-100,s.amplitude*1e-12);upper=Math.min(1e100,s.amplitude*1e8);}if(p.kind==='capacitance'||p.kind==='cpe'){lower=Math.max(1e-100,p.lower/s.amplitude);upper=Math.min(1e100,p.upper/s.amplitude);}if(p.kind==='inductance'){lower=Math.max(1e-100,p.lower*s.amplitude);upper=Math.min(1e100,p.upper*s.amplitude);}if(p.allowZero&&p.defaultFixed&&values[p.key]===0)lower=0;return {key:p.key,initial:clamp(values[p.key],lower,upper),lower,upper,fixed:p.defaultFixed===true};});
   }
-  function normalizeOptions(input,value){const data=validateData(input),o=value||{},definition=normalizeDefinition(o.definition),m=describe(definition),weighting=o.weighting===undefined?'modulus':o.weighting,multiStart=o.multiStart===undefined?6:number(o.multiStart,'Starts'),maxIterations=o.maxIterations===undefined?250:number(o.maxIterations,'Iterations');if(!['uniform','modulus'].includes(weighting))fail('Weighting must be uniform or modulus.');if(!Number.isInteger(multiStart)||multiStart<1||multiStart>20||!Number.isInteger(maxIterations)||maxIterations<1||maxIterations>1000)fail('Use 1–20 starts and 1–1000 iterations.');const supplied=o.parameters===undefined?defaults(data,definition):o.parameters;if(!Array.isArray(supplied)||supplied.length!==m.parameters.length)fail('Every custom circuit parameter must be supplied.');const seen=new Set(),lookup={};for(const p of supplied){if(!p||!m.parameters.some(q=>q.key===p.key)||seen.has(p.key))fail('Unknown or duplicate custom circuit parameter.');seen.add(p.key);lookup[p.key]=p;}const parameters=m.parameters.map(p=>{const q=lookup[p.key],initial=number(q.initial,p.key+' initial'),lower=number(q.lower,p.key+' lower'),upper=number(q.upper,p.key+' upper');if(!(lower>0&&lower<=initial&&initial<=upper&&lower>=1e-100&&upper<=1e100)||p.kind==='exponent'&&upper>1)fail('Invalid positive bounds or exponent for '+p.key+'.');if(q.fixed!==undefined&&typeof q.fixed!=='boolean')fail('Fixed must be true or false.');const fixed=q.fixed===true;if(!fixed&&!(lower<upper))fail('A free parameter needs distinct bounds.');return {key:p.key,initial,lower,upper,fixed};});return {definition,weighting,multiStart,maxIterations,parameters};}
-  function parametersObject(m,values){const out={};if(Array.isArray(values)){if(values.length!==m.parameters.length)fail('Incorrect custom parameter count.');if(values.every(v=>typeof v==='number'))m.parameters.forEach((p,i)=>out[p.key]=values[i]);else for(const p of values){if(!p||typeof p.key!=='string'||Object.hasOwn(out,p.key))fail('Invalid parameter array.');out[p.key]=p.value===undefined?p.initial:p.value;}}else if(plain(values))Object.assign(out,values);else fail('Circuit parameters are required.');if(Object.keys(out).length!==m.parameters.length||Object.keys(out).some(k=>!m.parameters.some(p=>p.key===k)))fail('Unknown or missing custom circuit parameter.');for(const p of m.parameters){out[p.key]=number(out[p.key],p.key);if(!(out[p.key]>0)||p.kind==='exponent'&&out[p.key]>1)fail('Invalid positive custom parameter '+p.key);}return out;}
+  function normalizeOptions(input,value){const data=validateData(input),o=value||{},definition=normalizeDefinition(o.definition),m=describe(definition),weighting=o.weighting===undefined?'modulus':o.weighting,multiStart=o.multiStart===undefined?6:number(o.multiStart,'Starts'),maxIterations=o.maxIterations===undefined?250:number(o.maxIterations,'Iterations');if(!['uniform','modulus'].includes(weighting))fail('Weighting must be uniform or modulus.');if(!Number.isInteger(multiStart)||multiStart<1||multiStart>20||!Number.isInteger(maxIterations)||maxIterations<1||maxIterations>1000)fail('Use 1–20 starts and 1–1000 iterations.');const supplied=o.parameters===undefined?defaults(data,definition):o.parameters;if(!Array.isArray(supplied)||supplied.length!==m.parameters.length)fail('Every custom circuit parameter must be supplied.');const seen=new Set(),lookup={};for(const p of supplied){if(!p||!m.parameters.some(q=>q.key===p.key)||seen.has(p.key))fail('Unknown or duplicate custom circuit parameter.');seen.add(p.key);lookup[p.key]=p;}const parameters=m.parameters.map(p=>{const q=lookup[p.key],initial=number(q.initial,p.key+' initial'),lower=number(q.lower,p.key+' lower'),upper=number(q.upper,p.key+' upper');if(q.fixed!==undefined&&typeof q.fixed!=='boolean')fail('Fixed must be true or false.');const fixed=q.fixed===true;if(p.requiredFixed&&!fixed)fail(p.key+' is a specified line length and must be fixed.');const zeroAllowed=p.allowZero===true&&(fixed||p.kind==='exponent');if(!((lower>0&&lower>=1e-100||zeroAllowed&&lower===0)&&lower<=initial&&initial<=upper&&upper<=1e100)||p.kind==='exponent'&&upper>1)fail('Invalid bounds for '+p.key+'. Zero is allowed for fixed transmission-line branch parameters or their boundary exponents; other free parameters need a positive lower bound.');if(!fixed&&!(lower<upper))fail('A free parameter needs distinct bounds.');return {key:p.key,initial,lower,upper,fixed};});return {definition,weighting,multiStart,maxIterations,parameters};}
+  function parametersObject(m,values){const out={};if(Array.isArray(values)){if(values.length!==m.parameters.length)fail('Incorrect custom parameter count.');if(values.every(v=>typeof v==='number'))m.parameters.forEach((p,i)=>out[p.key]=values[i]);else for(const p of values){if(!p||typeof p.key!=='string'||Object.hasOwn(out,p.key))fail('Invalid parameter array.');out[p.key]=p.value===undefined?p.initial:p.value;}}else if(plain(values))Object.assign(out,values);else fail('Circuit parameters are required.');if(Object.keys(out).length!==m.parameters.length||Object.keys(out).some(k=>!m.parameters.some(p=>p.key===k)))fail('Unknown or missing custom circuit parameter.');for(const p of m.parameters){out[p.key]=number(out[p.key],p.key);if(!(out[p.key]>0||p.allowZero===true&&out[p.key]===0)||p.kind==='exponent'&&out[p.key]>1)fail('Invalid custom parameter '+p.key);}return out;}
   function div(ar,ai,br,bi){if(br===0&&bi===0)fail('Circuit has a zero impedance or admittance singularity.');if(Math.abs(br)>=Math.abs(bi)){const q=bi/br,d=br+bi*q;return [(ar+ai*q)/d,(ai-ar*q)/d];}const q=br/bi,d=bi+br*q;return [(ar*q+ai)/d,(ai*q-ar)/d];}
   function finiteDiffusion(r,tau,w,open){const x=w*tau;if(x<1e-6)return open?[r*(1/3-2*x*x/945),-r*(1/x+x/45)]:[r*(1-2*x*x/15),-r*(x/3-17*x*x*x/315)];const s=Math.sqrt(x/2);let tr,ti;if(s>20){tr=1;ti=0;}else{const d=Math.cosh(2*s)+Math.cos(2*s);tr=Math.sinh(2*s)/d;ti=Math.sin(2*s)/d;}return open?div(r,0,s*(tr-ti),s*(tr+ti)):div(r*tr,r*ti,s,s);}
-  function evaluateNode(n,p,w){if(n.kind==='element'){const k=n.key,v=p[k];switch(n.type){case 'R':return [v,0];case 'C':return [0,-1/(w*v)];case 'L':return [0,w*v];case 'CPE':{const a=p[k+'_alpha'],m=v*Math.pow(w,a),phase=Math.PI*a/2;return div(1,0,m*Math.cos(phase),m*Math.sin(phase));}case 'W':{const a=v/Math.sqrt(w);return [a,-a];}case 'Ws':case 'Wo':return finiteDiffusion(p[k+'_R'],p[k+'_tau'],w,n.type==='Wo');default:fail('Unknown element type.');}}let re=0,im=0;for(const c of n.children){let z=evaluateNode(c,p,w);if(n.kind==='parallel')z=div(1,0,z[0],z[1]);re+=z[0];im+=z[1];}return n.kind==='parallel'?div(1,0,re,im):[re,im];}
+  function evaluateNode(n,p,w){if(n.kind==='element'){const k=n.key,v=p[k];switch(n.type){case 'DX28':case 'DX12':return transmissionLine().impedance(w,k,p);case 'R':return [v,0];case 'C':return [0,-1/(w*v)];case 'L':return [0,w*v];case 'CPE':{const a=p[k+'_alpha'],m=v*Math.pow(w,a),phase=Math.PI*a/2;return div(1,0,m*Math.cos(phase),m*Math.sin(phase));}case 'W':{const a=v/Math.sqrt(w);return [a,-a];}case 'Ws':case 'Wo':return finiteDiffusion(p[k+'_R'],p[k+'_tau'],w,n.type==='Wo');default:fail('Unknown element type.');}}let re=0,im=0;for(const c of n.children){let z=evaluateNode(c,p,w);if(n.kind==='parallel')z=div(1,0,z[0],z[1]);re+=z[0];im+=z[1];}return n.kind==='parallel'?div(1,0,re,im):[re,im];}
   function predict(input,definition,values){const m=describe(definition),p=parametersObject(m,values),source=Array.isArray(input)?input:input&&(input.f||input.freq||input.frequency);if(!Array.isArray(source)||!source.length||source.length>LIMITS.points)fail('A nonempty frequency array up to 2000 points is required.');const re=[],im=[];for(const q of source){const f=number(q&&typeof q==='object'?q.f:q,'Frequency');if(!(f>=1e-100&&f<=1e100))fail('Frequency outside supported range.');const z=evaluateNode(m.topology,p,TWO_PI*f);if(!z.every(Number.isFinite))fail('Circuit prediction exceeds finite numerical range.');re.push(z[0]);im.push(z[1]);}return {re,im};}
 
   function progress(runtime, values) {
@@ -4602,7 +4863,12 @@ SOFTWARE.
     return { g, scales, active, maximum };
   }
   function solveStart(context, initial, runtime, startNumber) {
-    let x = initial.slice(), r = context.residual(x), cost = norm2(r), mu = 1e-3;
+    // DX12 can have weakly observable terminal/distributed branches. A large
+    // starting penalty suppresses those directions and can lead to a nearby
+    // nonzero local minimum even from a close initial circuit. Start this new
+    // model closer to Gauss–Newton; rejected steps still increase damping.
+    // Every pre-existing v1 and DX28-only solve retains its original path.
+    let x = initial.slice(), r = context.residual(x), cost = norm2(r), mu = context.m.elements.some(n=>n.type==='DX12')?1e-8:1e-3;
     let converged = false, termination = 'iteration-limit', iterations = 0, pg = null, smallCount = 0;
     for (; iterations < context.o.maxIterations; iterations++) {
       if (iterations % 10 === 0) progress(runtime, { state: 'running', start: startNumber + 1, totalStarts: context.o.multiStart, iteration: iterations, detail: 'Equivalent-circuit least squares' });
@@ -4696,6 +4962,32 @@ SOFTWARE.
     let values=start===0?initial.slice():automatic.slice(),strategy=start===0?'requested-initial':'generic-data-derived-initial';
     if(start>=2){const anchor=context.coordinate(start%2===0?automatic:initial),bases=[2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97,101,103,107,109,113,127,131];values=context.physical(anchor.map((v,j)=>clamp(v+(2*radicalInverse(start-1,bases[j])-1)*(context.transformations[context.free[j]].alpha?.3:4),context.lo[j],context.hi[j])));strategy='generic-deterministic-log-perturbation';}
     if(start===2||start===3){const index=Object.fromEntries(o.parameters.map((p,i)=>[p.key,i])),reactive=context.m.elements.filter(e=>e.type==='C'||e.type==='CPE'),logMin=-Math.log(TWO_PI*context.s.fmax),logMax=-Math.log(TWO_PI*context.s.fmin),pairs=[];function visit(n){if(n.kind==='parallel'&&n.children.length===2){const r=n.children.find(c=>c.kind==='element'&&c.type==='R'),q=n.children.find(c=>c.kind==='element'&&['C','CPE'].includes(c.type));if(r&&q)pairs.push({r,q});}if(n.children)n.children.forEach(visit);}visit(o.definition.topology);for(let j=0;j<reactive.length;j++){const n=reactive[j],pair=pairs.find(p=>p.q.key===n.key),r=pair?values[index[pair.r.key]]:context.s.rp/Math.max(1,reactive.length),fraction=clamp((j+.5+(start===3?.35:0))/Math.max(1,reactive.length),.05,.95),tau=Math.exp(logMin+fraction*(logMax-logMin));if(n.type==='C')values[index[n.key]]=tau/r;else{values[index[n.key+'_alpha']]=start===2?.85:.65;values[index[n.key]]=Math.pow(tau,values[index[n.key+'_alpha']])/r;}}strategy='generic-measurement-window-anchor';}
+    // The generic window anchors above have no C/CPE leaf to move inside DX28.
+    // Give this physical model two complementary RC seeds instead, preserving
+    // each RC time scale while exploring storage/transport balance. Keep the
+    // boundary-CPE modulus at the middle of the observed frequency window when
+    // its exponent moves. The original seven-element paths remain unchanged.
+    const lines=context.m.elements.filter(n=>n.type==='DX28');
+    if(lines.length&&(start===2||start===3)){
+      values=initial.slice();const index=Object.fromEntries(o.parameters.map((p,i)=>[p.key,i])),rScale=start===2?.5:2;
+      const pivotLog=Math.log(TWO_PI)+(Math.log(context.s.fmin)+Math.log(context.s.fmax))/2;
+      for(const n of lines){
+        for(const key of ['Rct','Rd','Rp']){const i=index[n.key+'_'+key];if(!o.parameters[i].fixed)values[i]*=rScale;}
+        for(const key of ['Cdl','Cd','Cp']){const i=index[n.key+'_'+key];if(!o.parameters[i].fixed)values[i]/=rScale;}
+        const pi=index[n.key+'_PB'],ti=index[n.key+'_TB'],p=o.parameters[pi];
+        if(!p.fixed){const next=p.lower+(p.upper-p.lower)*(start===2?.55:.75);if(!o.parameters[ti].fixed)values[ti]*=Math.exp((values[pi]-next)*pivotLog);values[pi]=next;}
+      }
+      strategy='dx28-complementary-rc-anchor';
+    }
+    const dx12Lines=context.m.elements.filter(n=>n.type==='DX12');
+    if(!lines.length&&dx12Lines.length&&(start===2||start===3)){
+      values=initial.slice();const index=Object.fromEntries(o.parameters.map((p,i)=>[p.key,i])),pivotLog=Math.log(TWO_PI)+(Math.log(context.s.fmin)+Math.log(context.s.fmax))/2;
+      for(const n of dx12Lines){
+        const ri=index[n.key+'_R'];if(!o.parameters[ri].fixed)values[ri]*=start===2?.1:10;
+        for(const [coefficient,exponent]of [['T','P'],['A','B'],['D','E']]){const ci=index[n.key+'_'+coefficient],ei=index[n.key+'_'+exponent],e=o.parameters[ei];if(!e.fixed){const next=clamp(start===2?.65:.85,e.lower,e.upper);if(!o.parameters[ci].fixed)values[ci]*=Math.exp((values[ei]-next)*pivotLog);values[ei]=next;}}
+      }
+      strategy='dx12-distributed-admittance-anchor';
+    }
     values=values.map((v,i)=>o.parameters[i].fixed?o.parameters[i].initial:clamp(v,o.parameters[i].lower,o.parameters[i].upper));return {x:context.coordinate(values),strategy};
   }
   function interpretation(data,definition,parameters,metrics,summary){
@@ -4712,6 +5004,8 @@ SOFTWARE.
   function resultDiagnostics(context,values,starts,metrics,converged,parameters){
     const x=context.coordinate(values),r=context.residual(x),J=context.jacobian(x),pg=projectedGradient(context,x,J,r),sv=singularValues(J,context.free.length),rank=sv.filter(v=>v>(sv[0]||0)*1e-8).length,conditionNumber=sv.length&&rank===context.free.length&&sv.at(-1)>0?sv[0]/sv.at(-1):null;
     const detail=interpretation(context.data,context.o.definition,parameters,metrics,context.s),warningCodes=[];
+    const transmissionLines=context.m.elements.filter(n=>n.type==='DX28'||n.type==='DX12');
+    if(transmissionLines.length){detail.transmissionLines=transmissionLines.map(n=>n.type==='DX28'?{key:n.key,model:'DX28',modelVersion:transmissionLine().VERSION,normalizedLength:1,terminalResistanceOhm:1e20,scope:'specified-porous-electrode-boundaries-not-general-MIEC'}:{key:n.key,model:'DX12',modelVersion:transmissionLine().VERSIONS.DX12,normalizedLength:values[context.o.parameters.findIndex(p=>p.key===n.key+'_F')],lengthParameterFixed:true,zeroResistorConvention:'unused-open-branch',scope:'specified-X1-X2-X3-distributed-line-not-general-MIEC'});warningCodes.push('transmission-line-physical-assumptions');}
     if(!converged)warningCodes.push('search-not-converged');if(parameters.some(p=>p.atBound))warningCodes.push('parameter-at-bound');if(rank<context.free.length)warningCodes.push('rank-deficient');if(conditionNumber!==null&&conditionNumber>1e6)warningCodes.push('ill-conditioned');
     const scale=context.o.weighting==='uniform'?context.s.amplitude**2:1;if(starts.length>1&&starts.some(s=>s.objective>metrics.objective+Math.max(scale*1e-12,Math.abs(metrics.objective)*1e-3)))warningCodes.push('start-dependent');
     if(detail.redundantGroups.length)warningCodes.push('structurally-redundant-elements');if(context.data.some(p=>p.re<0))warningCodes.push('negative-real-data');if(detail.timeConstants.some(t=>!t.inWindow))warningCodes.push('time-constant-outside-window');if(detail.largeResistanceParameters.length)warningCodes.push('large-extrapolated-resistance');if(detail.applicability.positiveImaginaryPatternUnsupported)warningCodes.push('positive-imaginary-model-mismatch');if(detail.residuals.real.structured||detail.residuals.imaginary.structured)warningCodes.push('structured-residuals');warningCodes.push('custom-topology-physical-review');
@@ -4722,35 +5016,85 @@ SOFTWARE.
     const data=validateData(input),o=normalizeOptions(data,options),context=makeContext(data,o),starts=[];let best,totalIterations=0;const total=context.free.length?o.multiStart:1;
     for(let start=0;start<total;start++){const seed=seedForStart(context,start),x=seed.x;progress(runtime,{state:'started',start:start+1,totalStarts:total,iteration:0,detail:'Custom equivalent circuit'});const solved=solveStart(context,x,runtime,start);totalIterations+=solved.iterations;starts.push({start:start+1,objective:solved.cost*(o.weighting==='uniform'?context.s.amplitude**2:1),internalNormalizedObjective:solved.cost,converged:solved.converged,termination:solved.termination,iterations:solved.iterations,initial:context.physical(x),seedStrategy:seed.strategy,values:context.physical(solved.x),projectedGradient:solved.projectedGradient});if(!best||solved.cost<best.cost)best=solved;progress(runtime,{state:'completed',start:start+1,totalStarts:total,iteration:solved.iterations,converged:solved.converged});}
     const values=context.physical(best.x),prediction=predict(data,o.definition,values),metrics=finalMetrics(data,prediction,o,context.s),parameters=o.parameters.map((p,i)=>{const v=values[i],a=context.m.parameters[i].kind==='exponent',distance=a?Math.min(v-p.lower,p.upper-v):Math.min(Math.log(v/p.lower),Math.log(p.upper/v));return {...p,value:v,unit:context.m.parameters[i].unit,atBound:!p.fixed&&distance<=1e-5};}),checked=resultDiagnostics(context,values,starts,metrics,best.converged,parameters);
-    const result={schema:RESULT_SCHEMA,analysisModel:'ecm-custom',fitDomain:'impedance',definition:o.definition,circuit:o.definition.expression,options:o,parameters,fittedRe:prediction.re,fittedIm:prediction.im,converged:best.converged,status:best.converged?'converged':'not-converged',termination:best.termination,iterations:totalIterations,evaluations:context.evaluations(),...checked,starts,...metrics};validateResult(result,data,o);return result;
+    const result={schema:resultSchema(o.definition.topology),analysisModel:'ecm-custom',fitDomain:'impedance',definition:o.definition,circuit:o.definition.expression,options:o,parameters,fittedRe:prediction.re,fittedIm:prediction.im,converged:best.converged,status:best.converged?'converged':'not-converged',termination:best.termination,iterations:totalIterations,evaluations:context.evaluations(),...checked,starts,...metrics};if(hasTransmissionLine(o.definition.topology))result.modelVersions=modelVersions(o.definition.topology);validateResult(result,data,o);return result;
+  }
+  function dx12DerivativePortability(context,values,rank,svMax){
+    if(rank>=context.free.length||!context.m.elements.some(n=>n.type==='DX12'))return null;
+    const x=context.coordinate(values),J=context.jacobian(x),r=context.residual(x),rNorm=Math.hypot(...r),pg=projectedGradient(context,x,J,r),columnBounds=[];
+    const center=predict(context.data,context.o.definition,values);let residualBound=0;
+    // Use the same local 512-ulp response budget as the v2 stored-start
+    // reconstruction, rather than an empirical tolerance on a tiny derivative.
+    // A central difference divides two response errors by its actual width.
+    for(let i=0;i<context.data.length;i++){const delta=512*EPS*Math.max(context.s.moduli[i],Math.hypot(center.re[i],center.im[i]),context.s.amplitude*1e-12)*context.weights[i];residualBound=Math.hypot(residualBound,delta,delta);}
+    for(let j=0;j<context.free.length;j++){
+      const h=context.transformations[context.free[j]].alpha?2e-6:6e-6,left=Math.max(context.lo[j],x[j]-h),right=Math.min(context.hi[j],x[j]+h),xl=x.slice(),xr=x.slice();xl[j]=left;xr[j]=right;
+      const a=predict(context.data,context.o.definition,context.physical(xl)),b=predict(context.data,context.o.definition,context.physical(xr));let bound=0;
+      for(let i=0;i<context.data.length;i++){const delta=512*EPS*Math.max(context.s.moduli[i],Math.hypot(a.re[i],a.im[i]),Math.hypot(b.re[i],b.im[i]),context.s.amplitude*1e-12)*context.weights[i],entry=2*delta/(right-left);bound=Math.hypot(bound,entry,entry);}
+      columnBounds.push(bound);
+    }
+    // Weyl: |sigma(J+E)-sigma(J)| <= ||E||2 <= ||E||F. This allowance
+    // applies only to directions that BOTH runtimes classify below the
+    // unchanged rank threshold; observable singular values keep their gate.
+    const singularValueBound=Math.min(svMax*1e-8,Math.hypot(...columnBounds));let gradientLower=0,gradientUpper=0;
+    for(let j=0;j<context.free.length;j++){
+      const n=pg.scales[j],delta=columnBounds[j],g=pg.g[j],atLower=x[j]<=context.lo[j]+1e-10,atUpper=x[j]>=context.hi[j]-1e-10,dg=delta*rNorm+(n+delta)*residualBound;
+      if(atLower&&g>dg||atUpper&&g<-dg)continue;
+      const value=n>0?Math.abs(g)/n:0,uncertainty=n>delta?Math.min(2*rNorm,2*delta/(n-delta)*rNorm)+residualBound:rNorm+residualBound;
+      let lower=Math.max(0,value-uncertainty),upper=Math.min(rNorm+residualBound,value+uncertainty);
+      if(n<=delta||atLower&&g>=-dg||atUpper&&g<=dg)lower=0;
+      gradientLower=Math.max(gradientLower,lower);gradientUpper=Math.max(gradientUpper,upper);
+    }
+    // Cauchy bounds the normalized correlation by ||r||. A column below its
+    // difference-roundoff floor has no reproducible normalized direction.
+    // No solve, classification or saved diagnostic is replaced by this audit.
+    return {singularValueBound,gradientLower,gradientUpper};
   }
   function validateResult(result,input,options){
     finiteTree(result);const data=validateData(input),o=normalizeOptions(data,options||(result&&result.options));
-    if(!plain(result)||result.schema!==RESULT_SCHEMA||result.analysisModel!=='ecm-custom'||result.fitDomain!=='impedance'||!same(normalizeDefinition(result.definition),o.definition)||result.circuit!==o.definition.expression)fail('Custom ECM result circuit mismatch.');
+    if(!plain(result)||result.schema!==resultSchema(o.definition.topology)||result.analysisModel!=='ecm-custom'||result.fitDomain!=='impedance'||!same(normalizeDefinition(result.definition),o.definition)||result.circuit!==o.definition.expression)fail('Custom ECM result circuit mismatch.');
     if(!same(result.options,o))fail('Custom ECM result options mismatch.');
+    if(hasTransmissionLine(o.definition.topology)&&!same(result.modelVersions,modelVersions(o.definition.topology)))fail('Transmission-line model version mismatch.');
     const descriptors=describe(o.definition).parameters;if(!Array.isArray(result.parameters)||result.parameters.length!==descriptors.length)fail('Custom ECM result parameter count mismatch.');
     result.parameters.forEach((p,i)=>{const q=o.parameters[i],v=number(p.value,'Fitted parameter');for(const k of ['key','initial','lower','upper','fixed'])if(p[k]!==q[k])fail('Custom ECM parameter request mismatch.');if(p.unit!==descriptors[i].unit||v<q.lower||v>q.upper||q.fixed&&v!==q.initial)fail('Custom ECM parameter bounds or units mismatch.');const distance=descriptors[i].kind==='exponent'?Math.min(v-q.lower,q.upper-v):Math.min(Math.log(v/q.lower),Math.log(q.upper/v));if(p.atBound!==(!q.fixed&&distance<=1e-5))fail('Custom ECM bound diagnostic mismatch.');});
-    const prediction=predict(data,o.definition,result.parameters),s=dataSummary(data),metrics=finalMetrics(data,prediction,o,s);
+    const prediction=predict(data,o.definition,result.parameters),s=dataSummary(data);
     function close(a,b,scale,label){if(typeof a!=='number'||!Number.isFinite(a)||Math.abs(a-b)>512*EPS*Math.max(Math.abs(b),scale,1e-300))fail('Custom ECM '+label+' failed reconstruction.');}
-    for(const k of ['fittedRe','fittedIm','residualRe','residualIm']){if(!Array.isArray(result[k])||result[k].length!==data.length)fail('Custom ECM curve size mismatch.');const expected=k==='fittedRe'?prediction.re:k==='fittedIm'?prediction.im:metrics[k];result[k].forEach((v,i)=>close(v,expected[i],s.amplitude,k));}for(const k of ['rmse','relativeRmse','objective','weightedResidualSquaredSum'])close(result[k],metrics[k],Math.abs(metrics[k])*1e-3,k);
+    for(const k of ['fittedRe','fittedIm']){if(!Array.isArray(result[k])||result[k].length!==data.length)fail('Custom ECM curve size mismatch.');const expected=k==='fittedRe'?prediction.re:prediction.im;result[k].forEach((v,i)=>close(v,expected[i],s.amplitude,k));}
+    // A saved v2 result reports metrics for its saved curve. After the curve has
+    // passed the same strict model reconstruction above, retain that curve as
+    // the metric source. A few libm ulps in a new runtime must not become a large
+    // relative change in an almost-zero residual. All v1 metrics keep their
+    // original reconstruction path and every metric retains its strict check.
+    const metricPrediction=hasTransmissionLine(o.definition.topology)?{re:result.fittedRe,im:result.fittedIm}:prediction;
+    const metrics=finalMetrics(data,metricPrediction,o,s);
+    for(const k of ['residualRe','residualIm']){if(!Array.isArray(result[k])||result[k].length!==data.length)fail('Custom ECM curve size mismatch.');result[k].forEach((v,i)=>close(v,metrics[k][i],s.amplitude,k));}for(const k of ['rmse','relativeRmse','objective','weightedResidualSquaredSum'])close(result[k],metrics[k],Math.abs(metrics[k])*1e-3,k);
     if(typeof result.converged!=='boolean'||result.status!==(result.converged?'converged':'not-converged'))fail('Invalid custom ECM solve status.');const context=makeContext(data,o),total=context.free.length?o.multiStart:1;if(!Array.isArray(result.starts)||result.starts.length!==total)fail('Custom ECM starts mismatch.');let best=null;
-    result.starts.forEach((start,i)=>{if(!plain(start)||start.start!==i+1||typeof start.converged!=='boolean'||!Number.isInteger(start.iterations)||start.iterations<0||start.iterations>o.maxIterations||!['iteration-limit','residual-tolerance','projected-gradient','active-bounds','numerical-stationarity','no-improving-step','objective-stationarity'].includes(start.termination)||start.converged===['iteration-limit','no-improving-step'].includes(start.termination))fail('Invalid custom ECM start status.');for(const k of ['initial','values']){if(!Array.isArray(start[k])||start[k].length!==o.parameters.length)fail('Invalid custom ECM start values.');start[k].forEach((v,j)=>{const p=o.parameters[j];if(typeof v!=='number'||!Number.isFinite(v)||v<p.lower||v>p.upper||p.fixed&&v!==p.initial)fail('Custom ECM start outside requested bounds.');});}const seed=seedForStart(context,i),initial=context.physical(seed.x);if(seed.strategy!==start.seedStrategy)fail('Custom ECM seed strategy mismatch.');initial.forEach((v,j)=>close(start.initial[j],v,Math.abs(v),'start initial'));const expected=finalMetrics(data,predict(data,o.definition,start.values),o,s).objective;if(typeof start.objective!=='number'||Math.abs(start.objective-expected)>Math.max((o.weighting==='uniform'?s.amplitude**2:1)*1e-22,expected*1e-9))fail('Custom ECM start objective mismatch.');const normalized=norm2(context.residual(context.coordinate(start.values)));if(typeof start.internalNormalizedObjective!=='number'||Math.abs(start.internalNormalizedObjective-normalized)>Math.max(1e-22,normalized*1e-9))fail('Custom ECM normalized objective mismatch.');if(!(start.projectedGradient>=0)||!Number.isFinite(start.projectedGradient))fail('Invalid custom ECM start gradient.');if(!best||start.internalNormalizedObjective<best.internalNormalizedObjective)best=start;});
+    const v2=hasTransmissionLine(o.definition.topology),normalWeights=s.moduli.map(v=>o.weighting==='modulus'?1/Math.max(v,s.amplitude*1e-12):1/s.amplitude);
+    function savedNormalizedObjective(){const r=[];for(let i=0;i<data.length;i++)r.push((result.fittedRe[i]-data[i].re)*normalWeights[i]);for(let i=0;i<data.length;i++)r.push((result.fittedIm[i]-data[i].im)*normalWeights[i]);return norm2(r);}
+    // Unselected starts have no stored curve. Bound the RSS perturbation from
+    // local floating-point curve uncertainty: |(r+e)^2-r^2| <= 2|r||e|+e^2.
+    // The selected curve's redundant metrics stay strictly self-consistent.
+    function startRoundoffBound(z,normalized){let bound=0;for(let i=0;i<data.length;i++){const q=data[i],w=normalized?normalWeights[i]:o.weighting==='modulus'?normalWeights[i]:1,delta=512*EPS*Math.max(Math.abs(q.re),Math.abs(q.im),Math.abs(z.re[i]),Math.abs(z.im[i]),s.amplitude*1e-12)*w;bound+=2*Math.abs((z.re[i]-q.re)*w)*delta+delta*delta;bound+=2*Math.abs((z.im[i]-q.im)*w)*delta+delta*delta;}return bound;}
+    result.starts.forEach((start,i)=>{if(!plain(start)||start.start!==i+1||typeof start.converged!=='boolean'||!Number.isInteger(start.iterations)||start.iterations<0||start.iterations>o.maxIterations||!['iteration-limit','residual-tolerance','projected-gradient','active-bounds','numerical-stationarity','no-improving-step','objective-stationarity'].includes(start.termination)||start.converged===['iteration-limit','no-improving-step'].includes(start.termination))fail('Invalid custom ECM start status.');for(const k of ['initial','values']){if(!Array.isArray(start[k])||start[k].length!==o.parameters.length)fail('Invalid custom ECM start values.');start[k].forEach((v,j)=>{const p=o.parameters[j];if(typeof v!=='number'||!Number.isFinite(v)||v<p.lower||v>p.upper||p.fixed&&v!==p.initial)fail('Custom ECM start outside requested bounds.');});}const seed=seedForStart(context,i),initial=context.physical(seed.x);if(seed.strategy!==start.seedStrategy)fail('Custom ECM seed strategy mismatch.');initial.forEach((v,j)=>close(start.initial[j],v,Math.abs(v),'start initial'));const selectedV2=v2&&start.values.every((v,j)=>v===result.parameters[j].value),startPrediction=selectedV2?metricPrediction:predict(data,o.definition,start.values),expected=finalMetrics(data,startPrediction,o,s).objective;if(typeof start.objective!=='number'||Math.abs(start.objective-expected)>Math.max((o.weighting==='uniform'?s.amplitude**2:1)*1e-22,expected*1e-9,v2&&!selectedV2?startRoundoffBound(startPrediction,false):0))fail('Custom ECM start objective mismatch.');const normalized=selectedV2?savedNormalizedObjective():norm2(context.residual(context.coordinate(start.values)));if(typeof start.internalNormalizedObjective!=='number'||Math.abs(start.internalNormalizedObjective-normalized)>Math.max(1e-22,normalized*1e-9,v2&&!selectedV2?startRoundoffBound(startPrediction,true):0))fail('Custom ECM normalized objective mismatch.');if(!(start.projectedGradient>=0)||!Number.isFinite(start.projectedGradient))fail('Invalid custom ECM start gradient.');if(!best||start.internalNormalizedObjective<best.internalNormalizedObjective)best=start;});
     result.parameters.forEach((p,i)=>close(p.value,best.values[i],Math.abs(p.value),'selected values'));if(result.converged!==best.converged||result.termination!==best.termination||result.iterations!==result.starts.reduce((a,b)=>a+b.iterations,0)||!Number.isInteger(result.evaluations)||result.evaluations<1)fail('Custom ECM selected start mismatch.');
     const expected=resultDiagnostics(context,result.parameters.map(p=>p.value),result.starts,metrics,result.converged,result.parameters),sv=expected.diagnostics.weightedJacobianSingularValues,svMax=sv[0]||0;
+    const dx12Roundoff=dx12DerivativePortability(context,result.parameters.map(p=>p.value),expected.diagnostics.rank,svMax);
     // Finite-difference derivatives amplify libm rounding. Primary predictions
     // and categories remain strict. Only derivative diagnostics get a bounded
     // relative 2e-8 tolerance; null singular directions use a norm-relative
     // 4096-ulp absolute floor, and a small absolute gradient floor. Saved values
     // are never replaced, and rank/classifications must still agree exactly.
-    function equal(actual,wanted,path){if(typeof wanted==='number'){let tolerance=1024*EPS*Math.max(Math.abs(wanted),1e-30);if(path==='diagnostics.conditionNumber')tolerance=2e-8*Math.abs(wanted);if(path==='diagnostics.projectedGradient')tolerance=2e-11+2e-8*Math.abs(wanted);if(path.startsWith('diagnostics.weightedJacobianSingularValues.')){const belowNull=expected.diagnostics.rank<expected.diagnostics.freeParameters&&wanted<svMax*1e-8&&actual<svMax*1e-8;tolerance=2e-8*Math.abs(wanted)+(belowNull?4096*EPS*svMax:0);}if(typeof actual!=='number'||!Number.isFinite(actual)||Math.abs(actual-wanted)>tolerance)fail('Custom ECM diagnostic '+path+' mismatch.');}else if(wanted&&typeof wanted==='object'){if(!actual||typeof actual!=='object'||Array.isArray(actual)!==Array.isArray(wanted)||Object.keys(actual).sort().join(',')!==Object.keys(wanted).sort().join(','))fail('Custom ECM diagnostic shape mismatch.');for(const k of Object.keys(wanted))equal(actual[k],wanted[k],path+'.'+k);}else if(actual!==wanted)fail('Custom ECM diagnostic '+path+' mismatch.');}
+    // Rank-deficient DX12 additionally propagates the finite-difference
+    // response budget above; its unobservable normalized columns cannot be
+    // compared by a relative tolerance on rounding noise alone.
+    function equal(actual,wanted,path){if(typeof wanted==='number'){let tolerance=1024*EPS*Math.max(Math.abs(wanted),1e-30);if(path==='diagnostics.conditionNumber')tolerance=2e-8*Math.abs(wanted);if(path==='diagnostics.projectedGradient'){tolerance=2e-11+2e-8*Math.abs(wanted);if(dx12Roundoff&&typeof actual==='number'&&Number.isFinite(actual)&&actual>=dx12Roundoff.gradientLower-tolerance&&actual<=dx12Roundoff.gradientUpper+tolerance)return;}if(path.startsWith('diagnostics.weightedJacobianSingularValues.')){const belowNull=expected.diagnostics.rank<expected.diagnostics.freeParameters&&wanted<svMax*1e-8&&actual<svMax*1e-8;tolerance=2e-8*Math.abs(wanted)+(belowNull?Math.max(4096*EPS*svMax,dx12Roundoff?dx12Roundoff.singularValueBound:0):0);}if(typeof actual!=='number'||!Number.isFinite(actual)||Math.abs(actual-wanted)>tolerance)fail('Custom ECM diagnostic '+path+' mismatch.');}else if(wanted&&typeof wanted==='object'){if(!actual||typeof actual!=='object'||Array.isArray(actual)!==Array.isArray(wanted)||Object.keys(actual).sort().join(',')!==Object.keys(wanted).sort().join(','))fail('Custom ECM diagnostic shape mismatch.');for(const k of Object.keys(wanted))equal(actual[k],wanted[k],path+'.'+k);}else if(actual!==wanted)fail('Custom ECM diagnostic '+path+' mismatch.');}
     for(const k of ['rank','freeParameters','completedStarts','totalStarts','selectedStart','distinctInitials'])if(!Number.isInteger(result.diagnostics?.[k])||result.diagnostics[k]!==expected.diagnostics[k])fail('Custom ECM integer diagnostic '+k+' mismatch.');
     if(!(result.diagnostics?.projectedGradient>=0)||result.diagnostics.conditionNumber!==null&&!(result.diagnostics.conditionNumber>=0)||!Array.isArray(result.diagnostics.weightedJacobianSingularValues)||result.diagnostics.weightedJacobianSingularValues.some(v=>!(v>=0)))fail('Custom ECM sensitivity diagnostics must be nonnegative.');
     if(result.starts.some(s=>!(s.objective>=0)||!(s.internalNormalizedObjective>=0)))fail('Custom ECM start objectives must be nonnegative.');
     for(const k of ['diagnostics','interpretation','warningCodes'])equal(result[k],expected[k],k);
-    if(result.converged){const cost=best.internalNormalizedObjective;if(result.termination==='residual-tolerance'&&cost>1e-26*2*data.length*(1+1e-6))fail('Custom ECM residual termination mismatch.');if(result.termination==='projected-gradient'&&expected.diagnostics.projectedGradient>1e-11*(1+Math.sqrt(cost))*(1+1e-6)+1e-14)fail('Custom ECM gradient termination mismatch.');if(result.termination==='active-bounds'){const x=context.coordinate(result.parameters.map(p=>p.value));if(projectedGradient(context,x,context.jacobian(x),context.residual(x)).active.length)fail('Custom ECM active bound termination mismatch.');}}
+    if(result.converged){const cost=best.internalNormalizedObjective,terminationGradient=dx12Roundoff?Math.max(result.diagnostics.projectedGradient,dx12Roundoff.gradientLower):expected.diagnostics.projectedGradient;if(result.termination==='residual-tolerance'&&cost>1e-26*2*data.length*(1+1e-6))fail('Custom ECM residual termination mismatch.');if(result.termination==='projected-gradient'&&terminationGradient>1e-11*(1+Math.sqrt(cost))*(1+1e-6)+1e-14)fail('Custom ECM gradient termination mismatch.');if(result.termination==='active-bounds'){const x=context.coordinate(result.parameters.map(p=>p.value));if(projectedGradient(context,x,context.jacobian(x),context.residual(x)).active.length)fail('Custom ECM active bound termination mismatch.');}}
     return true;
   }
-  const api={DEFINITION_SCHEMA,RESULT_SCHEMA,LIMITS,parse,normalizeDefinition,stringify,describe,templates,defaults,normalizeOptions,predict,fit,validateResult,validateData};
+  const api={DEFINITION_SCHEMA,RESULT_SCHEMA,TLM_DEFINITION_SCHEMA,TLM_RESULT_SCHEMA,LIMITS,parse,normalizeDefinition,stringify,describe,templates,defaults,normalizeOptions,predict,fit,validateResult,validateData,transmissionLineInfo:type=>transmissionLine().info(type)};
   if(typeof module==='object'&&module.exports)module.exports=api;if(root)root.ECMCustom=api;
 })(typeof globalThis!=='undefined'?globalThis:this);
 </script>
@@ -4760,7 +5104,7 @@ SOFTWARE.
   const C=()=>root.ECMCustom||(typeof require==='function'?require('./ecm-custom-core.js'):null);
   const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
   function measure(node,path='0'){
-    if(node.kind==='element')return {node,path,width:116,height:88};
+    if(node.kind==='element')return {node,path,width:node.type==='DX12'?690:node.type==='DX28'?590:116,height:node.type==='DX12'?300:node.type==='DX28'?260:88};
     const children=node.children.map((n,i)=>measure(n,path+'.'+i));
     return node.kind==='series'?{node,path,children,width:children.reduce((n,c)=>n+c.width,0)+22*(children.length-1),height:Math.max(...children.map(c=>c.height))}:{node,path,children,width:Math.max(...children.map(c=>c.width))+48,height:children.reduce((n,c)=>n+c.height,0)+10*(children.length-1)};
   }
@@ -4769,11 +5113,79 @@ SOFTWARE.
     const out=[`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width}" height="${height}" style="min-width:${width}px" role="img" aria-labelledby="custom-ecm-svg-title custom-ecm-svg-desc"><title id="custom-ecm-svg-title">${language==='en'?'Custom circuit connections':'自定义电路连接'}</title><desc id="custom-ecm-svg-desc">${esc(def.expression)}</desc><g fill="none" stroke="#3569a8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">`];
     const line=(x1,y1,x2,y2)=>out.push(`<path d="M${x1} ${y1}H${x2}V${y2}"/>`);
     const text=(x,y,s,small=false)=>out.push(`<text x="${x}" y="${y}" fill="${small?'#64748b':'#334155'}" stroke="none" font-size="${small?11:13}" text-anchor="middle" font-family="Arial,sans-serif">${esc(s)}</text>`);
+    function distributed(q,x,y){
+      const top=y+64,bottom=y+205,cy=y+q.height/2;
+      text(x+q.width/2,y+24,q.node.key);
+      out.push(`<g data-custom-distributed-model="DX28">`);
+      line(x,cy,x+20,cy);line(x+20,cy,x+20,top);line(x+20,top,x+48,top);
+      const branch=(cx)=>{
+        const left=cx-22,right=cx+22,split=y+91;
+        line(cx,top,cx,split);line(left,split,right,split);
+        line(left,split,left,y+130);line(left,y+139,left,bottom);
+        out.push(`<path d="M${left-12} ${y+130}H${left+12}M${left-12} ${y+139}H${left+12}"/>`);
+        text(left-18,y+163,'Cdl',true);
+        line(right,split,right,y+104);
+        out.push(`<rect x="${right-17}" y="${y+104}" width="34" height="24" rx="2" fill="#fff"/>`);text(right,y+120,'Rct',true);
+        line(right,y+128,right,y+147);
+        out.push(`<rect x="${right-17}" y="${y+147}" width="34" height="24" rx="2" fill="#fff"/>`);text(right,y+163,'Zd',true);
+        line(right,y+171,right,bottom);
+      };
+      for(let i=0;i<3;i++){
+        const rm=x+48+120*i,cx=x+125+120*i;
+        out.push(`<rect x="${rm}" y="${top-9}" width="34" height="18" rx="1" fill="#fff"/>`);
+        text(rm+17,top-17,'Rm',true);line(rm+34,top,cx,top);branch(cx);
+        line(cx,top,i<2?rm+120:x+495,top);
+      }
+      line(x+103,bottom,x+570,bottom);line(x+570,bottom,x+570,cy);line(x+570,cy,x+q.width,cy);
+      const qx=x+472,rx=x+520,join=x+496,split=y+91;
+      line(x+495,top,join,split);line(qx,split,rx,split);
+      for(const [at,label]of [[qx,'Qb'],[rx,'Rb']]){
+        line(at,split,at,y+120);out.push(`<rect x="${at-17}" y="${y+120}" width="34" height="30" rx="2" fill="#fff"/>`);text(at,y+139,label,true);line(at,y+150,at,bottom);
+      }
+      text(join,y+48,language==='en'?'End':'末端',true);text(join,y+180,'Rb = 10²⁰ Ω',true);
+      text(x+q.width/2,y+241,language==='en'?'Distributed structure · continuous-model evaluation':'分布结构示意 · 连续模型求值',true);
+      out.push('</g>');
+    }
+    function bisquert(q,x,y){
+      const top=y+82,bottom=y+246,cy=y+q.height/2;
+      out.push('<g data-custom-distributed-model="DX12">');
+      text(x+q.width/2,y+21,q.node.key);
+      line(x,cy,x+18,cy);line(x+18,cy,x+18,top);
+      for(let i=0;i<3;i++){
+        const left=x+32+i*180,right=left+112,mid=left+56,tap=left+139;
+        line(i?left-41:x+18,top,left,top);
+        out.push(`<path d="M${left} ${top-16}V${top+16}M${right} ${top-16}V${top+16}"/>`);
+        line(left,top-16,mid-20,top-16);line(mid+20,top-16,right,top-16);
+        out.push(`<rect x="${mid-20}" y="${top-23}" width="40" height="14" fill="#fff"/>`);text(mid,top-12,'R',true);
+        line(left,top+16,mid-17,top+16);line(mid+17,top+16,right,top+16);
+        out.push(`<path d="M${mid-17} ${top+16}h10l-5 -7m5 7 -5 7M${mid+3} ${top+16}h10l-5 -7m5 7 -5 7"/>`);
+        text(mid,top+39,'T, P',true);text(mid,top-32,'X1',true);
+        line(right,top,tap,top);
+        line(tap,top,tap,y+146);line(tap-22,y+146,tap+22,y+146);
+        line(tap-22,y+146,tap-22,y+171);line(tap+22,y+146,tap+22,y+171);
+        out.push(`<rect x="${tap-34}" y="${y+171}" width="24" height="28" fill="#fff"/>`);text(tap-22,y+189,'C',true);
+        out.push(`<path d="M${tap+14} ${y+176}h16l-10 18M${tap+14} ${y+185}h16l-10 18"/>`);
+        line(tap-22,y+199,tap-22,bottom);line(tap+22,y+203,tap+22,bottom);
+        text(tap+36,y+223,'D, E',true);text(tap,y+137,'X3',true);
+        if(i===2)line(tap,top,x+626,top);
+      }
+      const end=x+626,l=end-22,r=end+22;
+      line(end,top,end,y+146);line(l,y+146,r,y+146);
+      line(l,y+146,l,y+171);line(r,y+146,r,y+171);
+      out.push(`<rect x="${l-12}" y="${y+171}" width="24" height="28" fill="#fff"/>`);text(l,y+189,'U',true);
+      out.push(`<path d="M${r-8} ${y+176}h16l-10 18M${r-8} ${y+185}h16l-10 18"/>`);
+      line(l,y+199,l,bottom);line(r,y+203,r,bottom);text(end,y+137,'X2',true);text(r,y+223,'A, B',true);
+      line(x+149,bottom,x+675,bottom);line(x+675,bottom,x+675,cy);line(x+675,cy,x+q.width,cy);
+      text(x+q.width/2,y+278,language==='en'?'Distributed R ∥ CPE branches · fixed length F · continuous evaluation':'分布 R ∥ CPE 支路 · 固定长度 F · 连续模型求值',true);
+      out.push('</g>');
+    }
     function draw(q,x,y){
       const n=q.node,cy=y+q.height/2;
       out.push(`<g data-custom-path="${q.path}" data-custom-kind="${n.kind}" data-custom-selected="${q.path===selected}">`);
       if(n.kind==='element'){
         out.push(`<rect class="custom-ecm-hit" x="${x+3}" y="${y+3}" width="${q.width-6}" height="${q.height-6}" rx="5" fill="${q.path===selected?'#eff6ff':'transparent'}" stroke="${q.path===selected?'#93c5fd':'none'}"/>`);
+        if(n.type==='DX28'){distributed(q,x,y);out.push('</g>');return;}
+        if(n.type==='DX12'){bisquert(q,x,y);out.push('</g>');return;}
         const l=x+32,r=x+84;line(x,cy,l,cy);line(r,cy,x+q.width,cy);
         if(n.type==='R')out.push(`<path d="M${l} ${cy}l5 -9 8 18 8 -18 8 18 8 -18 8 18 7 -9"/>`);
         else if(n.type==='C'){line(l,cy,x+53,cy);line(x+63,cy,r,cy);out.push(`<path d="M${x+53} ${cy-14}V${cy+14}M${x+63} ${cy-14}V${cy+14}"/>`);}
@@ -4902,7 +5314,11 @@ SOFTWARE.
     inductive_double_rc: series(e('L', 'L0'), R('Rs'), parallel(R('R1'), C('C1')), parallel(R('R2'), C('C2'))),
     inductive_double_zarc: series(e('L', 'L0'), R('Rs'), parallel(R('R1'), Q(1)), parallel(R('R2'), Q(2))),
     inductive_zarc_w: series(e('L', 'L0'), R('Rs'), parallel(R('R1'), Q(1)), diffusion('W')),
-    inductive_double_zarc_w: series(e('L', 'L0'), R('Rs'), parallel(R('R1'), Q(1)), parallel(R('R2'), Q(2)), diffusion('W'))
+    inductive_double_zarc_w: series(e('L', 'L0'), R('Rs'), parallel(R('R1'), Q(1)), parallel(R('R2'), Q(2)), diffusion('W')),
+    series_cpe: series(R('Rs'), Q(0)),
+    mixed_rc_zarc: series(R('Rs'), parallel(R('R1'), C('C1')), parallel(R('R2'), Q(2))),
+    parallel_capacitor: parallel(series(R('Rs'), Q(1)), C('Cgeo')),
+    parallel_cpe: parallel(series(R('Rs'), Q(1)), Q('geo'))
   };
   function freeze(value) { for (const child of Object.values(value)) if (child && typeof child === 'object') freeze(child); return Object.freeze(value); }
   freeze(topologies);
@@ -4912,7 +5328,10 @@ SOFTWARE.
   function elements(node, out = []) { if (node.kind === 'element') out.push(node); else for (const child of node.children) elements(child, out); return out; }
   function caption(modelId, language = 'zh') {
     const all = elements(topology(modelId)), notes = [words(language, '示意图表示当前选择的电路连接，不表示已确定机理。', 'The diagram shows the selected connections; it does not establish a mechanism.')];
-    if (all.some(n => n.type === 'CPE')) notes.push(words(language, 'CPE：Y=Q(jω)^α；α₁ / α₂ 对应参数 a1 / a2，Q 不是电容（F）。', 'CPE: Y=Q(jω)^α. α₁ / α₂ correspond to a1 / a2; Q is not a capacitance in F.'));
+    if (all.some(n => n.type === 'CPE')) notes.push(['series_cpe','parallel_capacitor','parallel_cpe'].includes(modelId)
+      ? words(language, 'CPE：Y=Q(jω)^α；各下标对应参数 a0、a1 或 ageo，Q 不是电容（F）。', 'CPE: Y=Q(jω)^α. Subscripts correspond to a0, a1 or ageo; Q is not a capacitance in F.')
+      : words(language, 'CPE：Y=Q(jω)^α；α₁ / α₂ 对应参数 a1 / a2，Q 不是电容（F）。', 'CPE: Y=Q(jω)^α. α₁ / α₂ correspond to a1 / a2; Q is not a capacitance in F.'));
+    if (modelId === 'parallel_capacitor' || modelId === 'parallel_cpe') notes.push(words(language, 'Cgeo / Qgeo 跨接整个 Rs+Q1 支路；连接位置本身不能确定物理来源。', 'Cgeo / Qgeo shunts the complete Rs+Q1 branch; the connection alone does not identify a physical origin.'));
     if (all.some(n => n.type === 'W')) notes.push(words(language, 'W：半无限扩散，参数 Aw。', 'W: semi-infinite diffusion, parameter Aw.'));
     if (all.some(n => n.type === 'Ws')) notes.push(words(language, 'Ws：有限扩散的短路边界，参数 Rw、tauD。', 'Ws: finite diffusion with a short boundary, parameters Rw and tauD.'));
     if (all.some(n => n.type === 'Wo')) notes.push(words(language, 'Wo：有限扩散的开路边界，参数 Rw、tauD。', 'Wo: finite diffusion with an open boundary, parameters Rw and tauD.'));
@@ -6127,6 +6546,12 @@ Studio 项目文件超过 32 MiB。	The Studio project file exceeds 32 MiB.
 读取文件期间当前项目已改变；本次导入未替换项目。	The project changed while the file was being read; nothing was replaced.
 校验期间当前项目已改变；本次导入未替换项目。	The project changed during validation; nothing was replaced.
 当前计算或项目恢复尚未结束，请稍后保存或替换项目。	Wait for computation or project restoration to finish before saving or replacing the project.
+其他标签页已更新浏览器项目，已停止覆盖保存。当前页面内容仍保留，请先导出项目文件，再刷新并恢复需要的项目。	Another tab updated the browser project, so this page has stopped saving over it. This page's contents are retained. Export a project file before refreshing and reopening the project you need.
+无法核对浏览器项目是否被其他标签页更新，未覆盖保存。请先导出项目文件，再刷新重试。	The browser project version could not be checked for changes from another tab. Nothing was overwritten. Export a project file before refreshing and trying again.
+等待其他标签页完成保存超时，当前内容保留。请先导出项目文件，再重试。	Timed out waiting for another tab to finish saving. This page's contents are retained. Export a project file before trying again.
+无法读取 IndexedDB 中的项目版本，未覆盖保存。当前内容保留，请先导出项目文件，再刷新重试。	The project version in IndexedDB could not be read. Nothing was overwritten and this page's contents are retained. Export a project file before refreshing and trying again.
+本地保存未完成：此浏览器无法安全协调多个标签页的 localStorage 保存。当前内容保留，请导出项目文件；建议使用最新版 Chrome 或 Edge。	Browser saving did not complete because this browser cannot safely coordinate localStorage writes across tabs. This page's contents are retained. Export a project file; a current Chrome or Edge version is recommended.
+项目未切换，当前内容保留：	The project was not switched; this page's contents are retained:
 
 导入阻抗数据，或载入示例开始分析。	Import impedance data, or load an example to start.
 已恢复保存结果及原始计算来源；尚未重新计算。	Saved results and original computation provenance restored; not recalculated.
@@ -9162,7 +9587,7 @@ FWHM 未确认	FWHM unconfirmed
   const text=(zh,en)=>window.DRTI18n?.language()==='en'?en:zh,pair=(zh,en)=>({zh,en}),number=v=>Number.isFinite(v)?Number(v.toPrecision(7)).toString():'—';
   let saved=null,job=null,lastAttempt=null,message=null,serial=0;
   const modelFields=[],models=new Map(C.models.map(m=>[m.id,m]));
-  const QUICK_MODELS=Object.freeze(['resistor','series_rc','rc','zarc','double_rc','double_zarc','randles','randles_cpe','randles_ws','randles_wo','inductive_rc','inductive_zarc','inductive_double_rc','inductive_double_zarc','inductive_zarc_w','inductive_double_zarc_w']);
+  const QUICK_MODELS=Object.freeze(['resistor','series_rc','rc','zarc','double_rc','double_zarc','randles','randles_cpe','randles_ws','randles_wo','inductive_rc','inductive_zarc','inductive_double_rc','inductive_double_zarc','inductive_zarc_w','inductive_double_zarc_w','series_cpe','mixed_rc_zarc','parallel_capacitor','parallel_cpe']);
   const labels={
     'ecm-auto-title':['1 · 候选电路比较','1 · Compare candidate circuits'],
     'ecm-auto-description':['不确定电路时，从这里开始；无需先进行单模型拟合。对所选候选使用相同的全部频点和残差权重，比较拟合、复杂度及诊断，再查看单模型详情。结果只在本次候选库中排序，不会自动确定真实电路。','Start here if the circuit is uncertain; no single-model fit is needed first. Compare the selected candidates using the same complete frequency data and residual weighting, then inspect a single model. Ranking is limited to this candidate library and does not identify a true circuit.'],
@@ -9301,6 +9726,17 @@ FWHM 未确认	FWHM unconfirmed
     'custom-ecm-add-series':['添加串联元件','Add in series'],'custom-ecm-add-parallel':['添加并联支路','Add parallel branch'],'custom-ecm-replace':['替换所选项','Replace selection'],'custom-ecm-remove':['移除所选项','Remove selection'],
     'custom-ecm-builder-note':['可以选择整个连接组继续串联或并联。点击图中的元件，也可选中它。','Select a connection group to extend it in series or parallel. You can also select elements in the diagram.'],
     'custom-ecm-diagram-title':['实时电路图','Live circuit diagram'],'custom-ecm-svg':['导出 SVG','Export SVG'],
+    'custom-ecm-distributed-title':['DX28 · 传输线模型说明','DX28 · Transmission-line model'],
+    'custom-ecm-distributed-summary':['沿电极深度分布的传输电阻 Rm，与局部双电层 Cdl 及 Rct + Zd 反应支路耦合；末端由 Qb 与 Rb 并联描述。','Distributed transport resistance Rm is coupled to local Cdl and Rct + Zd reaction branches along the electrode depth; Qb and Rb form the parallel end termination.'],
+    'custom-ecm-distributed-convention':['归一化长度 L = 1，末端 Rb 固定为 10²⁰ Ω。图中的重复支路用于说明分布结构，响应按连续传输线模型计算。','Normalized length L = 1; the end resistance Rb is fixed at 10²⁰ Ω. Repeated branches illustrate the distributed structure; responses are evaluated using the continuous transmission-line model.'],
+    'custom-ecm-distributed-boundary':['TB = 0 时关闭末端 CPE，并保持 TB、PB 固定。启用 CPE 拟合时，先将 TB 初值与下限设为正数，再取消固定；PB 的范围为 0–1。','TB = 0 disables the end CPE; keep TB and PB fixed in this case. To fit an active CPE, first set a positive TB initial value and lower bound, then release the fixed parameters; PB ranges from 0 to 1.'],
+    'custom-ecm-distributed-capacitance':['Cd、Cp 是该模型的储能参数，不能直接解释为 LSCF 电极的总化学电容。','Cd and Cp are storage parameters of this model; they are not automatically the total chemical capacitance of an LSCF electrode.'],
+    'custom-ecm-distributed-scope':['该模型需按电极结构与边界条件选用，可按实测响应另加串联 Rs 或 L，不加入首页的 20 种自动候选。较低拟合误差不能单独确认反应机理，也不表示参数已被数据独立确定。','Select this model using the electrode structure and boundary conditions; add series Rs or L if supported by the measured response. It is not included in the 20 automatic homepage candidates. A lower fitting error alone neither establishes the mechanism nor proves independent parameter identifiability.'],
+    'custom-ecm-dx12-title':['DX12 · Bisquert #3 传输线','DX12 · Bisquert #3 transmission line'],
+    'custom-ecm-dx12-summary':['X1 = R ∥ CPE(T, P) 是沿长度分布的传输阻抗；X3 = C ∥ CPE(D, E) 是分布横向支路；X2 = U ∥ CPE(A, B) 是末端边界。这里的 C 是电阻参数，单位为 Ω。','X1 = R ∥ CPE(T, P) is the distributed transport impedance, X3 = C ∥ CPE(D, E) is the distributed shunt branch, and X2 = U ∥ CPE(A, B) is the end termination. C here is a resistance parameter in Ω.'],
+    'custom-ecm-dx12-zero':['按此模型约定，R、U、C 或 CPE 系数设为 0 表示不使用该支路，并非零欧短路。默认保留 X1 电阻与 X3 的 CPE，末端开路；关闭的支路保持固定。要启用拟合，请先设置正初值、正下限，再取消固定。','In this model, zero R, U, C or CPE coefficient means that branch is unused, rather than a zero-ohm short. Defaults retain an X1 resistor and an X3 CPE with an open end; inactive branches remain fixed. To fit an active branch, first set positive initials and lower bounds, then release it.'],
+    'custom-ecm-dx12-length':['F 是长度，必须固定且大于 0；默认 F = 1。分布参数的单位与长度归一化有关。P、B、E 范围为 0–1；D 是 CPE 系数，不能直接当成扩散系数。','F is length and must remain fixed and positive; its default is 1. Distributed parameter units depend on the length normalization. P, B and E range from 0 to 1; D is a CPE coefficient, not a diffusion coefficient.'],
+    'custom-ecm-dx12-scope':['可在外部串联电阻、电感或并联电容、CPE。DX12 不进入首页自动候选；请按电极结构选择边界条件，并结合残差及参数辨识判断结果。','Add external series resistors or inductors, or parallel capacitors or CPEs. DX12 is excluded from automatic homepage candidates; select boundaries according to the electrode structure and review residuals and parameter identifiability.'],
     'custom-ecm-expression-title':['电路表达式','Circuit expression'],'custom-ecm-expression-label':['编辑表达式','Edit expression'],
     'custom-ecm-syntax':['+ 为串联，|| 为并联，例如 Rs + (R1 || Q1)。Q 是 CPE，参数为 Q 和 α。元件编号不可重复。','Use + for series and || for parallel, for example Rs + (R1 || Q1). Q denotes a CPE with Q and α parameters. Element identifiers must be unique.'],
     'custom-ecm-parameters-title':['参数与约束','Parameters and constraints'],'custom-ecm-estimate':['按当前数据重估初值','Estimate initials from current data'],
@@ -9316,7 +9752,7 @@ FWHM 未确认	FWHM unconfirmed
     'custom-ecm-comparison-title':['与模板候选对照','Compare with template candidates'],'custom-ecm-comparison-model':['电路','Circuit'],'custom-ecm-comparison-error':['相对 Z 误差','Relative Z error'],'custom-ecm-comparison-parameters':['自由参数','Free parameters'],'custom-ecm-comparison-status':['状态','Status'],
     'custom-ecm-interpretation-note':['低误差或数值收敛不能单独确定物理机理。请结合参数辨识、边界、多初值差异和残差判断；本结果不提供参数置信区间。','Low residuals or numerical convergence alone do not establish a physical mechanism. Review identifiability, bounds, agreement between starts and residuals. Parameter confidence intervals are not provided.']
   };
-  const elementNames={R:['电阻','Resistor'],C:['电容','Capacitor'],L:['电感','Inductor'],CPE:['常相位元件','Constant phase element'],W:['半无限扩散','Semi-infinite diffusion'],Ws:['有限扩散短路端','Finite diffusion, short end'],Wo:['有限扩散开路端','Finite diffusion, open end']};
+  const elementNames={R:['电阻','Resistor'],C:['电容','Capacitor'],L:['电感','Inductor'],CPE:['常相位元件','Constant phase element'],W:['半无限扩散','Semi-infinite diffusion'],Ws:['有限扩散短路端','Finite diffusion, short end'],Wo:['有限扩散开路端','Finite diffusion, open end'],DX28:['Barsoukov 传输线','Barsoukov transmission line'],DX12:['Bisquert #3 传输线','Bisquert #3 transmission line']};
   const warnings={
     'rank-deficient':['部分参数未被本次数据独立确定','Some parameters are not independently determined'],
     'ill-conditioned':['参数灵敏度条件较差','Poor parameter sensitivity conditioning'],
@@ -9332,7 +9768,8 @@ FWHM 未确认	FWHM unconfirmed
     'custom-topology-physical-review':['自定义电路的物理解释需结合实验确认','Physical interpretation of this custom circuit needs experimental review'],
     'structurally-redundant-elements':['连接中存在不能独立辨识的冗余元件','The circuit contains structurally redundant elements'],
     'time-constant-outside-window':['时间尺度超出测量参考窗口','Time scale outside the measured reference window'],
-    'large-extrapolated-resistance':['存在较大的窗外电阻补偿','Large extrapolated resistance compensation']
+    'large-extrapolated-resistance':['存在较大的窗外电阻补偿','Large extrapolated resistance compensation'],
+    'transmission-line-physical-assumptions':['传输线解释依赖均匀多孔电极与指定末端边界，低误差不能单独确认机理','Transmission-line interpretation assumes a uniform porous electrode and the specified end boundary; a low residual alone does not establish the mechanism']
   };
   let definition=null,parseError=null,rows=[],records=[],selectedRecordId=null,selectedPath='0',job=null,simulation=null,pristine=true,restoring=false,restoredIds=new Set(),message=null,jobSerial=0;
   const fmt=v=>Number.isFinite(v)?Number(v.toPrecision(6)).toString():'—';
@@ -9347,19 +9784,21 @@ FWHM 未确认	FWHM unconfirmed
   function currentKey(){try{const s=input();return JSON.stringify([identity(s),options(s.data)]);}catch(_){return null;}}
   function selected(){return records.find(r=>r.id===selectedRecordId)||null;}
   function recordIsCurrent(r){try{return identity(r.input)===identity(input())&&JSON.stringify(r.options)===JSON.stringify(options(r.input.data));}catch(_){return false;}}
-  function defaults(){const d=C.describe(definition);try{return C.defaults(input().data,definition);}catch(_){return d.parameters.map(p=>({key:p.key,initial:p.default,lower:p.lower,upper:p.upper,fixed:false}));}}
+  function defaults(){const d=C.describe(definition);try{return C.defaults(input().data,definition);}catch(_){return d.parameters.map(p=>({key:p.key,initial:p.default,lower:p.lower,upper:p.upper,fixed:p.defaultFixed===true}));}}
   function renderParameters(savedRows,replace=false){
     const body=$('custom-ecm-parameters');body.replaceChildren();rows=[];if(!definition)return;
     const previous=new Map((savedRows||[]).map(r=>[r.key,r])),suggested=new Map(defaults().map(p=>[p.key,p]));
     for(const p of C.describe(definition).parameters){
-      const entry=!replace&&previous.get(p.key)||suggested.get(p.key),tr=node('tr'),name=node('td');name.append(node('strong',p.key),node('small',p.unit||'—'));tr.append(name);
+      const entry=!replace&&previous.get(p.key)||suggested.get(p.key),tr=node('tr'),name=node('td'),displayName=language()==='en'?p.nameEn:p.nameZh,description=language()==='en'?p.descriptionEn:p.descriptionZh;name.append(node('strong',displayName||p.key));if(displayName){const key=node('small',p.key);key.className='custom-ecm-parameter-key';name.append(key);}name.append(node('small',p.unit||'—'));if(description)name.setAttribute('title',description);tr.append(name);
       const row={key:p.key};for(const key of ['initial','lower','upper']){const td=node('td'),control=node('input');control.type='text';control.inputMode='decimal';control.maxLength=100;control.value=String(entry?.[key]??'');control.setAttribute('aria-label',p.key+' '+text(key==='initial'?'初值':key==='lower'?'下限':'上限',key));control.dataset.customParameter=p.key;control.dataset.customField=key;control.addEventListener('input',changed);td.append(control);tr.append(td);row[key]=control;}
-      const td=node('td'),fixed=node('input');fixed.type='checkbox';fixed.checked=entry?.fixed===true;fixed.setAttribute('aria-label',p.key+' '+text('固定','fixed'));fixed.dataset.customParameter=p.key;fixed.dataset.customField='fixed';fixed.addEventListener('change',changed);td.append(fixed);tr.append(td);row.fixed=fixed;body.append(tr);rows.push(row);
+      const td=node('td'),fixed=node('input');fixed.type='checkbox';fixed.checked=p.requiredFixed===true||entry?.fixed===true;fixed.disabled=p.requiredFixed===true;fixed.setAttribute('aria-label',p.key+' '+text('固定','fixed'));if(p.requiredFixed)fixed.title=text('长度必须保持固定','Length must remain fixed');fixed.dataset.customParameter=p.key;fixed.dataset.customField='fixed';fixed.addEventListener('change',changed);td.append(fixed);tr.append(td);row.fixed=fixed;row.requiredFixed=p.requiredFixed===true;body.append(tr);rows.push(row);
     }
   }
   function paths(tree,path='0',level=0,out=[]){out.push({node:tree,path,level});if(tree.children)tree.children.forEach((n,i)=>paths(n,path+'.'+i,level+1,out));return out;}
   function renderDiagram(){
     const choices=$('custom-ecm-node');choices.replaceChildren();
+    $('custom-ecm-distributed-details').hidden=!definition||!C.describe(definition).elements.some(q=>q.type==='DX28');
+    $('custom-ecm-dx12-details').hidden=!definition||!C.describe(definition).elements.some(q=>q.type==='DX12');
     if(!definition){$('custom-ecm-schematic').replaceChildren(node('p',text('修正表达式后显示电路图。','The diagram appears when the expression is valid.')));$('custom-ecm-canonical').textContent='';return;}
     const all=paths(definition.topology);if(!all.some(q=>q.path===selectedPath))selectedPath='0';
     for(const q of all){const o=node('option',(q.level?'　'.repeat(q.level)+'↳ ':'')+(q.node.kind==='element'?q.node.key+' · '+text(...elementNames[q.node.type]):text(q.node.kind==='series'?'串联组':'并联组',q.node.kind==='series'?'Series group':'Parallel group')));o.value=q.path;choices.append(o);}choices.value=selectedPath;
@@ -9392,7 +9831,7 @@ FWHM 未确认	FWHM unconfirmed
     $('custom-ecm-weighting').options[0].textContent=text('按 |Z| 归一化','Normalize by |Z|');$('custom-ecm-weighting').options[1].textContent=text('等权','Uniform');
     $('custom-ecm-legend').replaceChildren();const dot=node('span','●'),line=node('span','━');dot.className='custom-ecm-dot';line.className='custom-ecm-line';$('custom-ecm-legend').append(dot,document.createTextNode(text(' 输入数据 ',' Data ')),line,document.createTextNode(text(' 电路响应',' Circuit response')));
     let seconds;try{seconds=W.getBudgetSeconds();}catch(_){seconds='—';}$('custom-ecm-budget').textContent=text('运行预算 ','Time limit ')+seconds+' s';
-    renderDiagram();renderValidation();renderResults();renderStatus();controls();
+    if(definition)renderParameters(draft().parameters);renderDiagram();renderValidation();renderResults();renderStatus();controls();
   }
   function range(values){let lo=Math.min(...values),hi=Math.max(...values);if(!Number.isFinite(lo)||!Number.isFinite(hi))return [-1,1];const pad=(hi-lo)*.08||Math.max(Math.abs(hi)*.1,1e-12);return [lo-pad,hi+pad];}
   function emptyPlots(){for(const id of plotIds){const svg=$(id);svg.replaceChildren();svg.setAttribute('viewBox','0 0 600 220');svg.append(W.plot.svgElement('text',{x:300,y:110,'text-anchor':'middle',fill:'#64748b','font-size':12},text('模拟或拟合后显示','Simulate or fit to view the response')));}}
@@ -9425,12 +9864,13 @@ FWHM 未确认	FWHM unconfirmed
     $('custom-ecm-result-source').textContent=(isSimulation?text('初值模拟 · 尚未拟合','Initial-value simulation · not fitted'):isRestored?text('保存结果 · 未重新计算','Saved result · not recalculated')+(!current?text(' · 与当前输入或设置不同',' · differs from current data or settings'):''):current?text('本次拟合结果','Current fit result'):text('历史结果 · 与当前输入或设置不同','Historical result · differs from current data or settings'))+' · '+(view.input.source||text('当前谱','Active spectrum'))+' · '+view.input.data.length+text(' 个频点 · ',' points · ')+view.definition.expression;
     for(const[label,value]of [[text(isSimulation?'模拟相对 Z 误差':'相对 Z 误差',isSimulation?'Simulated relative Z error':'Relative Z error'),fmt(r.relativeRmse*100)+'%'],['RMSE / Ω',fmt(r.rmse)],[text('数值状态','Numerical status'),isSimulation?text('未拟合','Not fitted'):r.converged?text('已收敛','Converged'):text('未收敛','Not converged')]]){const box=node('div');box.append(node('span',label),node('strong',value));metrics.append(box);}
     const warningCodes=r.warningCodes||[];$('custom-ecm-result-warning').textContent=isSimulation?text('此曲线仅使用当前初值，不能作为拟合结果。','This curve uses the current initial values and is not a fitted result.'):warningCodes.map(code=>warnings[code]?text(...warnings[code]):showRaw(code)).join('；');
-    for(const p of r.parameters||[]){const tr=node('tr');for(const v of [p.key,fmt(p.value),p.unit||'—',p.fixed?text('固定输入','Fixed input'):p.atBound?text('接近边界 · 需复核','Near bound · review'):text(isSimulation?'初值':'未触及指定边界',isSimulation?'Initial value':'Not at specified bounds')])tr.append(node('td',v));if(p.atBound)tr.lastChild.className='custom-ecm-bound';body.append(tr);}
+    const descriptors=new Map(C.describe(view.definition).parameters.map(p=>[p.key,p]));
+    for(const p of r.parameters||[]){const tr=node('tr'),descriptor=descriptors.get(p.key),displayName=language()==='en'?descriptor?.nameEn:descriptor?.nameZh;for(const v of [displayName?displayName+' · '+p.key:p.key,fmt(p.value),p.unit||'—',p.fixed?text('固定输入','Fixed input'):p.atBound?text('接近边界 · 需复核','Near bound · review'):text(isSimulation?'初值':'未触及指定边界',isSimulation?'Initial value':'Not at specified bounds')])tr.append(node('td',v));if(p.atBound)tr.lastChild.className='custom-ecm-bound';body.append(tr);}
     $('custom-ecm-diagnostics').textContent=isSimulation?text('尚未运行拟合；没有收敛或辨识诊断。','No fit has run; convergence and identifiability diagnostics are unavailable.'):JSON.stringify({definition:r.definition||view.definition,status:r.status,termination:r.termination,diagnostics:r.diagnostics,warningCodes:r.warningCodes,starts:r.starts},null,2);
     try{plot(view);}catch(e){emptyPlots();$('custom-ecm-result-warning').textContent+=' '+text('图表显示失败：','Plot display failed: ')+rawMessage(e);}renderCandidateComparison();
   }
   function renderStatus(){const el=$('custom-ecm-status');if(job){const p=job.progress||{},elapsed=((performance.now()-job.started)/1000).toFixed(1);el.dataset.state='running';el.textContent=text('正在拟合 · ','Fitting · ')+elapsed+' s'+(p.start!==undefined?text(' · 起点 ',' · start ')+Number(p.start):'');}else{el.dataset.state=message?.error?'error':'';el.textContent=message?message.raw?showRaw(message.raw):text(message.zh,message.en):'';}}
-  function controls(){const busy=!!job||W.isBusy();for(const el of panel.querySelectorAll('input,textarea,select,button'))el.disabled=busy;const valid=!!definition;for(const id of ['custom-ecm-add-series','custom-ecm-add-parallel','custom-ecm-replace','custom-ecm-remove','custom-ecm-estimate','custom-ecm-simulate','custom-ecm-fit','custom-ecm-svg'])$(id).disabled=busy||!valid;$('custom-ecm-remove').disabled=busy||!valid||selectedPath==='0';$('custom-ecm-cancel').hidden=!job;$('custom-ecm-cancel').disabled=!job;$('custom-ecm-json').disabled=busy||!selected();$('custom-ecm-reuse').disabled=busy||!selected();}
+  function controls(){const busy=!!job||W.isBusy();for(const el of panel.querySelectorAll('input,textarea,select,button'))el.disabled=busy;for(const row of rows)if(row.requiredFixed)row.fixed.disabled=true;const valid=!!definition;for(const id of ['custom-ecm-add-series','custom-ecm-add-parallel','custom-ecm-replace','custom-ecm-remove','custom-ecm-estimate','custom-ecm-simulate','custom-ecm-fit','custom-ecm-svg'])$(id).disabled=busy||!valid;$('custom-ecm-remove').disabled=busy||!valid||selectedPath==='0';$('custom-ecm-cancel').hidden=!job;$('custom-ecm-cancel').disabled=!job;$('custom-ecm-json').disabled=busy||!selected();$('custom-ecm-reuse').disabled=busy||!selected();}
   function stop(token){if(!token||token.closed)return;token.closed=true;clearTimeout(token.timer);clearInterval(token.tick);token.worker.terminate();URL.revokeObjectURL(token.url);if(job===token)job=null;if(token.owner)W.releaseWorkflow(token.owner);}
   function cancel(reason){if(!job)return;const token=job;token.aborted=true;token.reject(Object.assign(new Error(reason||text('拟合已取消，已有结果保留。','Fitting cancelled. Saved results are retained.')),{code:'cancelled'}));stop(token);renderStatus();controls();}
   async function fit(){
@@ -9455,6 +9895,7 @@ FWHM 未确认	FWHM unconfirmed
       const d=state?.draft||{expression:C.templates().find(t=>t.id==='zarc').expression,parameters:[],weighting:'modulus',multiStart:'6',maxIterations:'250'};
       $('custom-ecm-expression').value=d.expression;$('custom-ecm-weighting').value=d.weighting;$('custom-ecm-starts').value=d.multiStart;$('custom-ecm-iterations').value=d.maxIterations;
       parseExpression(d.parameters);
+      if(definition){const template=C.templates().find(q=>q.expression===definition.expression);if(template)$('custom-ecm-template').value=template.id;}
       if(!definition&&d.parameters?.length){const body=$('custom-ecm-parameters');body.replaceChildren();rows=[];for(const p of d.parameters){const tr=node('tr');tr.append(node('td',p.key));const row={key:p.key};for(const key of ['initial','lower','upper']){const td=node('td'),el=node('input');el.type='text';el.value=p[key];el.maxLength=100;el.setAttribute('aria-label',p.key+' '+key);el.addEventListener('input',changed);td.append(el);tr.append(td);row[key]=el;}const td=node('td'),fixed=node('input');fixed.type='checkbox';fixed.checked=p.fixed;fixed.setAttribute('aria-label',p.key+' fixed');fixed.addEventListener('change',changed);td.append(fixed);tr.append(td);row.fixed=fixed;body.append(tr);rows.push(row);}}
       renderLabels();renderResults();controls();
     }finally{restoring=false;}
@@ -9741,13 +10182,44 @@ FWHM 未确认	FWHM unconfirmed
 (function(root){
   'use strict';
   const C=root.EISKitProjectCore;if(!C)return;
-  const KEY='EISKitStudio.workspace.v1',JOURNAL=KEY+'.journal',DB='EISKitStudio',STORE='workspace';
-  const copy=x=>JSON.parse(JSON.stringify(x));let connection=null,opening=null,queue=Promise.resolve(),counter=0,lastTimestamp=0;
+  const KEY='EISKitStudio.workspace.v1',LEGACY_JOURNAL=KEY+'.journal',JOURNAL=LEGACY_JOURNAL+'.'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2),DB='EISKitStudio',STORE='workspace',LOCK=KEY+'.write';
+  const copy=x=>JSON.parse(JSON.stringify(x));let connection=null,opening=null,queue=Promise.resolve(),counter=0,lastTimestamp=0,observed=null;
   function timestamp(){lastTimestamp=Math.max(Date.now(),lastTimestamp+1);return {ms:lastTimestamp,iso:new Date(lastTimestamp).toISOString()};}
   let status={backend:null,available:null,lastError:null};
   function local(){try{const value=root.localStorage;if(value)return value;}catch(_){}throw new Error('浏览器不允许 localStorage。');}
   function checkEnvelope(value){if(!value||value.format!=='EISKit-local-workspace'||value.schemaVersion!==1||!value.integrity)throw new Error('浏览器草稿格式不受支持。');const clean=copy(value),integrity=clean.integrity;delete clean.integrity;if(C.checksum(clean)!==integrity.value)throw new Error('浏览器草稿完整性校验失败。');for(const key of ['current','previous'])if(value[key]!=null&&(!value[key].project||typeof value[key].projectId!=='string'||typeof value[key].capturedAt!=='string'))throw new Error('浏览器草稿记录不完整。');return value;}
   function decode(raw){if(raw==null)return null;if(typeof raw!=='string'||raw.length>100*1024*1024)throw new Error('浏览器草稿大小异常。');return checkEnvelope(JSON.parse(raw));}
+  function conflict(){const error=new Error('其他标签页已更新浏览器项目，已停止覆盖保存。当前页面内容仍保留，请先导出项目文件，再刷新并恢复需要的项目。');error.code='EISKIT_STORAGE_CONFLICT';return error;}
+  function selected(reads){const valid=[];for(let i=0;i<reads.length;i++)if(reads[i].status==='fulfilled'&&reads[i].value!=null)try{valid.push({value:decode(reads[i].value),raw:reads[i].value,backend:i===0?'IndexedDB':'localStorage'});}catch(_){}valid.sort((a,b)=>(b.value.writtenAtMs-a.value.writtenAtMs)||(b.value.sequence-a.value.sequence));return valid[0]||null;}
+  function journalEntries(baseVersion,checkpoint,currentProjectId,includeExpired=false){
+    const storage=local(),keys=new Set([LEGACY_JOURNAL,JOURNAL]),entries=[];
+    if(typeof storage.key==='function')for(let i=0;i<storage.length;i++){const key=storage.key(i);if(key?.startsWith(LEGACY_JOURNAL+'.'))keys.add(key);}
+    for(const key of keys){let raw;try{raw=storage.getItem(key);if(!raw)continue;const value=JSON.parse(raw),clean=copy(value),integrity=clean.integrity;delete clean.integrity;
+      if(integrity?.value!==C.checksum(clean)||value.format!=='EISKit-local-journal'||!value.baseline||typeof value.projectId!=='string'||!Number.isFinite(Date.parse(value.capturedAt)))continue;
+      const eligible=Object.hasOwn(value,'baseVersion')?value.baseVersion===baseVersion:key===LEGACY_JOURNAL&&(!currentProjectId||value.projectId===currentProjectId);
+      if(includeExpired||eligible&&(!checkpoint||value.capturedAt>checkpoint))entries.push({key,raw,value});
+    }catch(_){}}
+    return entries.sort((a,b)=>a.value.capturedAt.localeCompare(b.value.capturedAt)||a.key.localeCompare(b.key));
+  }
+  function journalTokens(entries){return entries.map(q=>[q.key,q.raw]);}
+  function observation(reads,pick,entries){return {reads:reads.map(q=>q.status==='fulfilled'?{known:true,raw:q.value}:{known:false,raw:null}),version:pick?.value.integrity.value||null,checkpoint:pick?.value.writtenAt||'',currentProjectId:pick?.value.current?.projectId||null,journals:journalTokens(entries)};}
+  function checkObserved(reads,pick,entries){
+    if(!observed)return;
+    for(let i=0;i<reads.length;i++){
+      const before=observed.reads[i],now=reads[i];
+      if(before.known&&now.status==='fulfilled'&&before.raw!==now.value)throw conflict();
+      if(before.known&&now.status==='rejected')throw new Error('无法核对浏览器项目是否被其他标签页更新，未覆盖保存。请先导出项目文件，再刷新重试。');
+    }
+    if((pick?.value.integrity.value||null)!==observed.version||JSON.stringify(journalTokens(entries))!==JSON.stringify(observed.journals))throw conflict();
+  }
+  async function readBoth(){return Promise.allSettled([idbRead(),Promise.resolve().then(()=>local().getItem(KEY))]);}
+  function withWriteLock(operation){
+    const locks=root.navigator?.locks;if(typeof locks?.request!=='function')return operation(false);
+    // A timed-out queued lock must never perform a delayed write afterwards.
+    return new Promise((resolve,reject)=>{let entered=false,expired=false;const timer=setTimeout(()=>{if(!entered){expired=true;reject(new Error('等待其他标签页完成保存超时，当前内容保留。请先导出项目文件，再重试。'));}},6000);
+      Promise.resolve().then(()=>locks.request(LOCK,{mode:'exclusive'},()=>{if(expired)return;entered=true;clearTimeout(timer);return operation(true);})).then(value=>{clearTimeout(timer);resolve(value);},error=>{clearTimeout(timer);if(!entered&&!expired&&['SecurityError','NotSupportedError'].includes(error?.name))Promise.resolve().then(()=>operation(false)).then(resolve,reject);else reject(error);});
+    });
+  }
   function database(){
     if(connection)return Promise.resolve(connection);if(opening)return opening;
     opening=new Promise((resolve,reject)=>{let request,finished=false;const timer=setTimeout(()=>{if(finished)return;finished=true;reject(new Error('IndexedDB 启动超时。'));},1800);
@@ -9758,29 +10230,58 @@ FWHM 未确认	FWHM unconfirmed
     }).finally(()=>{opening=null;});return opening;
   }
   async function idbRead(){const db=await database();return new Promise((resolve,reject)=>{let tx,finished=false;const timer=setTimeout(()=>{if(finished)return;finished=true;try{tx?.abort();}catch(_){}reject(new Error('IndexedDB 读取超时。'));},3000);try{tx=db.transaction(STORE,'readonly');const request=tx.objectStore(STORE).get(KEY);request.onsuccess=()=>{if(finished)return;finished=true;clearTimeout(timer);resolve(request.result??null);};request.onerror=()=>{if(finished)return;finished=true;clearTimeout(timer);reject(request.error||new Error('IndexedDB 读取失败。'));};}catch(error){clearTimeout(timer);reject(error);}});}
-  async function idbWrite(text){const db=await database();return new Promise((resolve,reject)=>{let tx,readback,finished=false;const timer=setTimeout(()=>{if(finished)return;finished=true;try{tx?.abort();}catch(_){}reject(new Error('IndexedDB 写入超时。'));},4000);function fail(error){if(finished)return;finished=true;clearTimeout(timer);reject(error||new Error('IndexedDB 写入失败。'));}try{tx=db.transaction(STORE,'readwrite');const store=tx.objectStore(STORE),put=store.put(text,KEY);put.onsuccess=()=>{const read=store.get(KEY);read.onsuccess=()=>{readback=read.result;};read.onerror=()=>fail(read.error);};tx.oncomplete=()=>{if(finished)return;if(readback!==text){fail(new Error('IndexedDB 写入后读回不一致。'));return;}finished=true;clearTimeout(timer);resolve();};tx.onerror=()=>fail(tx.error);tx.onabort=()=>fail(tx.error||new Error('IndexedDB 写入已中止。'));}catch(error){try{tx?.abort();}catch(_){}fail(error);}});}
+  async function idbWrite(text,expectedRaw,checkOther){const db=await database();return new Promise((resolve,reject)=>{let tx,readback,finished=false,writeError;const timer=setTimeout(()=>{if(finished)return;finished=true;try{tx?.abort();}catch(_){}reject(new Error('IndexedDB 写入超时。'));},4000);
+    function fail(error){if(finished)return;finished=true;clearTimeout(timer);reject(error||new Error('IndexedDB 写入失败。'));}
+    function abort(error){writeError=error;try{tx.abort();}catch(_){}fail(error);}
+    try{tx=db.transaction(STORE,'readwrite');const store=tx.objectStore(STORE),before=store.get(KEY);
+      before.onsuccess=()=>{if(finished)return;try{
+        if((before.result??null)!==expectedRaw)throw conflict();
+        checkOther();
+        const put=store.put(text,KEY);put.onsuccess=()=>{const read=store.get(KEY);read.onsuccess=()=>{readback=read.result;};read.onerror=()=>abort(read.error);};put.onerror=()=>abort(put.error);
+      }catch(error){abort(error);}};before.onerror=()=>abort(before.error);
+      tx.oncomplete=()=>{if(finished)return;if(readback!==text){fail(new Error('IndexedDB 写入后读回不一致。'));return;}finished=true;clearTimeout(timer);resolve();};tx.onerror=()=>fail(writeError||tx.error);tx.onabort=()=>fail(writeError||tx.error||new Error('IndexedDB 写入已中止。'));
+    }catch(error){try{tx?.abort();}catch(_){}fail(error);}
+  });}
   async function load(){
-    const reads=await Promise.allSettled([idbRead(),Promise.resolve().then(()=>local().getItem(KEY))]),valid=[],errors=[];let available=false;
+    const reads=await readBoth(),valid=[],errors=[];let available=false;
     for(let i=0;i<reads.length;i++){const backend=i===0?'IndexedDB':'localStorage',r=reads[i];if(r.status==='rejected'){errors.push(backend+': '+r.reason.message);continue;}available=true;if(r.value==null)continue;try{valid.push({value:decode(r.value),backend});}catch(error){errors.push(backend+': '+error.message);}}
     valid.sort((a,b)=>(b.value.writtenAtMs-a.value.writtenAtMs)||(b.value.sequence-a.value.sequence));
     if(!valid.length&&errors.some(e=>/完整性|格式|JSON|大小|记录不完整/.test(e))){status={backend:null,available:false,lastError:errors.join('；')};throw new Error('已有浏览器草稿无法读取；不会用空项目覆盖。'+errors.join('；'));}
     if(!valid.length&&!available){status={backend:null,available:false,lastError:errors.join('；')};throw new Error('浏览器本地存储不可用。'+errors.join('；'));}
-    const selected=valid[0],out=selected?copy(selected.value):{current:null,previous:null};lastTimestamp=Math.max(lastTimestamp,selected?.value.writtenAtMs||0);const checkpoint=selected?.value.writtenAt||out.current?.capturedAt||'';
-    try{const raw=local().getItem(JOURNAL);if(raw){const j=JSON.parse(raw),clean=copy(j),integrity=clean.integrity;delete clean.integrity;lastTimestamp=Math.max(lastTimestamp,Date.parse(j.capturedAt)||0);if(integrity?.value===C.checksum(clean)&&j.format==='EISKit-local-journal'&&j.baseline&&(!out.current||j.capturedAt>checkpoint)){
+    const chosen=valid[0],out=chosen?copy(chosen.value):{current:null,previous:null};lastTimestamp=Math.max(lastTimestamp,chosen?.value.writtenAtMs||0);const checkpoint=chosen?.value.writtenAt||out.current?.capturedAt||'';let entries=[];
+    try{entries=journalEntries(chosen?.value.integrity.value||null,checkpoint,chosen?.value.current?.projectId);for(const entry of entries){const j=entry.value;lastTimestamp=Math.max(lastTimestamp,Date.parse(j.capturedAt)||0);
         if(out.current&&j.projectId===out.current.projectId){out.current.project=copy(j.baseline);out.current.draft=copy(j.draft);out.current.capturedAt=j.capturedAt;out.current.fromJournal=true;}
         else{out.previous=out.current||out.previous;out.current={projectId:j.projectId,snapshotId:'journal-'+j.capturedAt,capturedAt:j.capturedAt,reason:'pagehide-journal',project:copy(j.baseline),draft:copy(j.draft),fromJournal:true};}
-      }}}catch(_){}
-    status={backend:selected?.backend||(reads[0].status==='fulfilled'?'IndexedDB':'localStorage'),available:true,lastError:errors.length?errors.join('；'):null};return {...out,backend:status.backend};
+    }}catch(_){}
+    observed=observation(reads,chosen,entries);
+    status={backend:chosen?.backend||(reads[0].status==='fulfilled'?'IndexedDB':'localStorage'),available:true,lastError:errors.length?errors.join('；'):null};return {...out,backend:status.backend};
   }
-  function write(state){const job=queue.then(async()=>{const stamp=timestamp(),envelope=C.seal({format:'EISKit-local-workspace',schemaVersion:1,writtenAt:stamp.iso,writtenAtMs:stamp.ms,sequence:++counter,current:copy(state.current),previous:state.previous?copy(state.previous):null}),text=JSON.stringify(envelope);let idbError;
-      try{await idbWrite(text);status={backend:'IndexedDB',available:true,lastError:null};return {backend:'IndexedDB',savedAt:envelope.writtenAt,verified:true};}catch(error){idbError=error;}
-      try{const storage=local();storage.setItem(KEY,text);if(storage.getItem(KEY)!==text)throw new Error('localStorage 写入后读回不一致。');status={backend:'localStorage',available:true,lastError:idbError.message};return {backend:'localStorage',savedAt:envelope.writtenAt,verified:true,fallback:true};}catch(error){status={backend:null,available:false,lastError:idbError.message+'；'+error.message};throw new Error('本地保存未完成，当前内容保留。'+status.lastError);}
-    });queue=job.catch(()=>{});return job;}
+  function write(state){const job=queue.then(async()=>{if(!observed)await load();return withWriteLock(async locked=>{
+      const reads=await readBoth(),pick=selected(reads),entries=(()=>{try{return journalEntries(pick?.value.integrity.value||null,pick?.value.writtenAt||'',pick?.value.current?.projectId);}catch(_){return [];}})();
+      checkObserved(reads,pick,entries);
+      // If an exposed IndexedDB cannot be read, its latest revision is unknown.
+      // A localStorage fallback must not conceal a potentially newer project.
+      if(root.indexedDB&&reads[0].status==='rejected')throw new Error('无法读取 IndexedDB 中的项目版本，未覆盖保存。当前内容保留，请先导出项目文件，再刷新重试。');
+      const cleanupCandidates=(()=>{try{return journalEntries(null,'',null,true);}catch(_){return [];}})(),stamp=timestamp(),envelope=C.seal({format:'EISKit-local-workspace',schemaVersion:1,writtenAt:stamp.iso,writtenAtMs:stamp.ms,sequence:++counter,current:copy(state.current),previous:state.previous?copy(state.previous):null}),text=JSON.stringify(envelope);let idbError;
+      const checkOther=()=>{const now=reads.map(q=>q);try{now[1]={status:'fulfilled',value:local().getItem(KEY)};}catch(error){now[1]={status:'rejected',reason:error};}let journals=[];try{journals=journalEntries(pick?.value.integrity.value||null,pick?.value.writtenAt||'',pick?.value.current?.projectId);}catch(_){}checkObserved(now,pick,journals);};
+      function accepted(index,backend,extra={}){const nextReads=reads.map((q,i)=>i===index?{status:'fulfilled',value:text}:q);observed=observation(nextReads,{value:envelope},[]);
+        // Only retire journals captured before this checkpoint and still byte
+        // identical. A journal newly written by another page is never removed.
+        try{const storage=local();for(const entry of cleanupCandidates)if(entry.key!==LEGACY_JOURNAL&&entry.value.baseVersion!==envelope.integrity.value&&entry.value.capturedAt<=envelope.writtenAt&&storage.getItem(entry.key)===entry.raw)storage.removeItem(entry.key);}catch(_){}
+        status={backend,available:true,lastError:extra.fallback?idbError.message:null};return {backend,savedAt:envelope.writtenAt,verified:true,...extra};}
+      try{if(reads[0].status==='rejected')throw reads[0].reason;await idbWrite(text,reads[0].value,checkOther);return accepted(0,'IndexedDB');}catch(error){if(error.code==='EISKIT_STORAGE_CONFLICT')throw error;idbError=error;}
+      if(!locked)throw new Error('本地保存未完成：此浏览器无法安全协调多个标签页的 localStorage 保存。当前内容保留，请导出项目文件；建议使用最新版 Chrome 或 Edge。');
+      try{checkOther();const storage=local();storage.setItem(KEY,text);if(storage.getItem(KEY)!==text)throw new Error('localStorage 写入后读回不一致。');return accepted(1,'localStorage',{fallback:true});}catch(error){if(error.code==='EISKIT_STORAGE_CONFLICT')throw error;status={backend:null,available:false,lastError:idbError.message+'；'+error.message};throw new Error('本地保存未完成，当前内容保留。'+status.lastError);}
+    });}).catch(error=>{status={...status,lastError:error.message,...(error.code==='EISKIT_STORAGE_CONFLICT'?{conflict:true}:{} )};throw error;});queue=job.catch(()=>{});return job;}
   function writeRecoveryJournal(projectId,draft,baseline){
-    function attempt(project,rawDraft){const value=C.seal({format:'EISKit-local-journal',schemaVersion:1,projectId,capturedAt:timestamp().iso,baseline:copy(project),draft:copy(rawDraft)}),text=JSON.stringify(value),storage=local();storage.setItem(JOURNAL,text);return storage.getItem(JOURNAL)===text;}
+    if(!observed)try{const reads=[{status:'rejected'},{status:'fulfilled',value:local().getItem(KEY)}],pick=selected(reads);observed=observation(reads,pick,journalEntries(pick?.value.integrity.value||null,pick?.value.writtenAt||'',pick?.value.current?.projectId));}catch(_){return false;}
+    // pagehide cannot await a Web Lock or IndexedDB transaction. A per-page key
+    // cannot replace another page's journal; its base version makes it inert
+    // after a later durable project switch, even when written during shutdown.
+    function attempt(project,rawDraft){const storage=local();if(observed.reads[1].known&&storage.getItem(KEY)!==observed.reads[1].raw)return false;if(JSON.stringify(journalTokens(journalEntries(observed.version,observed.checkpoint,observed.currentProjectId)))!==JSON.stringify(observed.journals))return false;const value=C.seal({format:'EISKit-local-journal',schemaVersion:1,baseVersion:observed.version,projectId,capturedAt:timestamp().iso,baseline:copy(project),draft:copy(rawDraft)}),text=JSON.stringify(value);storage.setItem(JOURNAL,text);if(storage.getItem(JOURNAL)!==text)return false;observed.journals=journalTokens(journalEntries(observed.version,observed.checkpoint,observed.currentProjectId));return true;}
     try{return attempt(baseline,draft);}catch(_){try{return attempt(C.create({},root.DRT),{...draft,validProject:false});}catch(_){return false;}}
   }
-  root.EISKitStorage={load,write,writeRecoveryJournal,getStatus:()=>copy(status),keys:{workspace:KEY,journal:JOURNAL}};
+  root.EISKitStorage={load,write,writeRecoveryJournal,getStatus:()=>copy(status),keys:{workspace:KEY,journal:JOURNAL,legacyJournal:LEGACY_JOURNAL}};
 })(typeof window!=='undefined'?window:globalThis);
 
 ;
@@ -10288,7 +10789,7 @@ FWHM 未确认	FWHM unconfirmed
   render();
 })();
 
-;window.EISKitHelp?.setBuildInfo({"version":"0.1.0","buildId":"2026.10.25-help1","buildDate":"2026-10-25","updatedAt":"2026-10-25","validationDate":"2026-10-25","solverVersion":"analytic-bounded-lm-v2"});
+;window.EISKitHelp?.setBuildInfo({"version":"0.1.0","buildId":"2026.10.28-dx12-1","buildDate":"2026-10-28","updatedAt":"2026-10-28","validationDate":"2026-10-28","solverVersion":"analytic-bounded-lm-v2"});
 /* EISKit Studio presentation and workflow. Analysis runs in the retained tools. */
 (function(){
   'use strict';
@@ -10312,7 +10813,7 @@ FWHM 未确认	FWHM unconfirmed
     single:['单谱分析','Single spectrum','从原始阻抗探索时间尺度、分布与重构；按需选择 DRT 或 DCT。','Explore time scales, distributions and reconstruction with DRT or DCT.'],
     series:['系列比较','Series comparison','批量导入、记录工况、比较原始谱，再按统一规则分析分布。','Import a series, record conditions, compare raw spectra and analyze distributions.'],
     checks:['数据检查','Data checks','检查有限频率窗口内的一致性，结合残差和实验条件判断。','Review consistency within the measured frequency window and experimental conditions.'],
-    models:['等效电路','Equivalent circuits','比较 16 种模板电路，或组合自定义电路，查看参数与诊断。','Compare 16 circuit templates or build a custom circuit, then inspect parameters and diagnostics.'],
+    models:['等效电路','Equivalent circuits','比较 20 种模板电路，或组合自定义电路，查看参数与诊断。','Compare 20 circuit templates or build a custom circuit, then inspect parameters and diagnostics.'],
     advanced:['高级分析','Advanced analysis','检查数值精度、窗口敏感性、条件区间与联合重构。','Inspect numerical precision, window sensitivity, conditional intervals and joint reconstruction.'],
     help:['方法、来源与引用','Methods, sources & citations','了解结果、方法与适用范围，查看来源和使用许可。','Understand the results, methods and limits, with sources and licensing.']
   };
@@ -10489,7 +10990,7 @@ FWHM 未确认	FWHM unconfirmed
     const ecm=window.DRTECMUI?.hasCurrentECM();$('studio-model-status').textContent=ecm?text('有拟合候选','Fit candidate available'):archives.some(a=>a.module==='ecm'&&a.matchesCurrentInput)?text('有历史模型记录','Historical fit available'):text('尚未拟合','Not fitted');
     $('studio-model-detail').textContent=text('分别核对求解、参数辨识与模型适用性','Review solver, identifiability and model applicability');
     const storage=P.getStorageStatus?.()||{},saving=storage.state==='saving',loading=storage.state==='loading';
-    const storageText=loading?text('正在恢复项目…','Restoring project…'):saving?text('正在保存…','Saving…'):storage.state==='error'?text('保存未完成 · ','Save failed · ')+(storage.message||''):storage.savedAt?(storage.completeProject===false?text('草稿已保存 · 输入或参数待修正 · ','Draft saved · Review input or settings · '):text('草稿已保存 · ','Draft saved · '))+new Date(storage.savedAt).toLocaleTimeString():text('新项目 · 尚未保存','New project · Not yet saved');
+    const storageText=loading?text('正在恢复项目…','Restoring project…'):saving?text('正在保存…','Saving…'):storage.state==='error'?text('保存未完成 · ','Save failed · ')+(window.DRTI18n?.translate(storage.message||'')||storage.message||''):storage.savedAt?(storage.completeProject===false?text('草稿已保存 · 输入或参数待修正 · ','Draft saved · Review input or settings · '):text('草稿已保存 · ','Draft saved · '))+new Date(storage.savedAt).toLocaleTimeString():text('新项目 · 尚未保存','New project · Not yet saved');
     $('studio-project-status').textContent=busy?text('计算中 · 草稿自动保留','Computing · Draft retained'):dirty&&!saving&&storage.state!=='error'?text('有更改 · 等待自动保存','Changes pending · Autosave queued'):storageText;
     if($('studio-storage-status')){$('studio-storage-status').textContent=storageText;$('studio-storage-status').dataset.state=storage.state||'';}
     for(const b of shell.querySelectorAll('[data-studio-action="save-project"],[data-studio-action="open-project"],[data-studio-action="new-project"],[data-studio-action="add-current"],[data-studio-action="import"],[data-studio-action="quick-import"],[data-studio-action="quick-run"],[data-studio-action="download-project"],[data-studio-action="recover-project"]'))b.disabled=busy||quickImportLoading||loading||saving;
